@@ -89,127 +89,9 @@
 38401 Saint-Martin-d'Hères<br>
 France</p>
 <hr>
-<p>For those, who are already here and are willing to rend me a personal visit (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. </p>
+<p>For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. </p>
       <br>
       <a class="btn" href="../contacts.html#contacts">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="../hypoelliptic_R.html#hypoelliptic_R">"Hypoelliptic models"</a></h2>
-    <p>
-
-    </p>
-  </header>
-  <div>
-      <h2>FitzHugh-Nagumo</h2>
-<p>The behaviour of the neuron is defined through the solution of the system
-</p>
-<div class="math">$$
-\begin{cases}
-dV_t = \frac{1}{\varepsilon}(V_t - V_t^3-U_t -s)dt \\
-dU_t = (\gamma V_t - U_t + \beta)dt+\sigma dW_t,
-\end{cases}
-$$</div>
-<p>
-where the variable <span class="math">\(V_t\)</span> represents the membrane potential of the neuron at time <span class="math">\(t\)</span>, and <span class="math">\(U_t\)</span> is a recovery variable, which could represent channel kinetic. Parameter <span class="math">\(s\)</span> is the magnitude of the stimulus current and is known in experiment, <span class="math">\(\varepsilon\)</span> is a time scale parameter, which is typically significantly smaller than <span class="math">\(1\)</span>, since <span class="math">\(V_t\)</span> moves "faster" than <span class="math">\(U_t\)</span>. Parameters to be estimated are <span class="math">\(\theta = (\gamma, \beta, \varepsilon, \sigma)\)</span>. </p>
-<h2>Hawkes process</h2>
-<p>The sequence of counting processes <span class="math">\((Z^\eta_{j, i}) \quad \forall {1\leq j \leq \eta, \: 1\leq i \leq \eta_j}\)</span> is characterized by its intensity process <span class="math">\((\lambda^\eta_{j, i}(t))\)</span> which is defined through the following relation: 
-</p>
-<div class="math">$$
-\mathds{P}(Z^\eta_{j, i} \text{ has a jump in } (t, t+\Delta]|\mathcal{F}_t) = \lambda^\eta_{j, i}(t) \Delta,
-$$</div>
-<p>
-where <span class="math">\(\mathcal{F}_t\)</span> contains all the information about the process <span class="math">\(Z^\eta_{j, i}\)</span> up to time <span class="math">\(t\)</span>. We consider a mean-field framework where <span class="math">\(\lambda^\eta_{j, i}(t)\)</span> is given by:
-</p>
-<div class="math">$$
-\lambda^\eta_{j, i}(t) = f_j\left(\sum_{l=1}^\eta \frac{1}{\eta_l} \sum_{1\leq j \leq \eta_l} \int_{(0, t)} h_{jl}(t-s) dZ^\eta_{l, j}(s) \right),
-$$</div>
-<p>
-where <span class="math">\(\{h_{jl}:\mathds{R}_+\to\mathds{R}\}\)</span> is a family of \textit{synaptic weight functions}, which model the influence of population <span class="math">\(k\)</span> on population <span class="math">\(j\)</span>, and <span class="math">\(f_j:  R \to R_+\)</span> is the \textit{spiking rate function} of population <span class="math">\(j\)</span>. </p>
-<div class="highlight"><pre><span></span>hawkes_approximation <span class="o">&lt;-</span> <span class="kr">function</span><span class="p">(</span>N<span class="p">,</span> delta<span class="p">,</span> n_pop<span class="p">,</span> n_neur<span class="p">,</span> eta<span class="p">,</span> nu<span class="p">,</span> c_rate<span class="p">,</span> K<span class="p">){</span>
-  n_total <span class="o">=</span> n_pop<span class="o">+</span><span class="kp">sum</span><span class="p">(</span>eta<span class="p">)</span>
-  Z <span class="o">=</span> <span class="kt">matrix</span><span class="p">(</span>nrow <span class="o">=</span> n_total<span class="p">,</span> ncol <span class="o">=</span> N<span class="p">)</span> <span class="c1"># slot for the process</span>
-  ind_rough <span class="o">=</span> <span class="kt">numeric</span><span class="p">(</span>n_pop<span class="p">)</span>
-  <span class="c1"># now we are checking the indexes of the rough variables</span>
-  <span class="kr">for</span> <span class="p">(</span>i <span class="kr">in</span> <span class="m">1</span><span class="o">:</span>n_pop<span class="p">){</span>ind_rough<span class="p">[</span>i<span class="p">]</span> <span class="o">=</span> <span class="kp">sum</span><span class="p">(</span>eta<span class="p">[</span><span class="m">1</span><span class="o">:</span>i<span class="p">])</span><span class="o">+</span>i<span class="p">}</span>
-  Z<span class="p">[,</span><span class="m">1</span><span class="p">]</span> <span class="o">=</span> <span class="kp">rep</span><span class="p">(</span><span class="m">0</span><span class="p">,</span>n_total<span class="p">)</span>
-  <span class="kr">for</span> <span class="p">(</span>n <span class="kr">in</span> <span class="m">1</span><span class="o">:</span><span class="p">(</span>N<span class="m">-1</span><span class="p">)){</span>
-    <span class="kr">for</span> <span class="p">(</span>k <span class="kr">in</span> <span class="m">1</span><span class="o">:</span>n_total<span class="p">){</span>
-      i <span class="o">=</span> <span class="kp">min</span><span class="p">(</span><span class="kp">which</span><span class="p">(</span>ind_rough <span class="o">&gt;=</span> k<span class="p">))</span>
-      <span class="kr">if</span> <span class="p">(</span>k <span class="o">%in%</span> ind_rough<span class="p">)</span> <span class="p">{</span>
-        <span class="kr">if</span> <span class="p">(</span>k<span class="m">+1</span> <span class="o">&lt;=</span> n_total<span class="p">)</span> <span class="p">{</span>j <span class="o">=</span> k <span class="o">+</span> <span class="m">1</span><span class="p">}</span> <span class="kr">else</span> <span class="p">{</span>j <span class="o">=</span> <span class="m">1</span><span class="p">}</span>
-        p <span class="o">=</span> n_neur<span class="p">[</span>i<span class="p">]</span><span class="o">/</span><span class="kp">sum</span><span class="p">(</span>n_neur<span class="p">)</span>
-        Z<span class="p">[</span>k<span class="p">,</span> n <span class="o">+</span> <span class="m">1</span><span class="p">]</span> <span class="o">=</span> Z<span class="p">[</span>k<span class="p">,</span>n<span class="p">]</span> <span class="o">+</span> delta<span class="o">*</span><span class="p">(</span><span class="o">-</span>nu<span class="p">[</span>i<span class="p">]</span><span class="o">*</span>Z<span class="p">[</span>k<span class="p">,</span> n<span class="p">]</span> <span class="o">+</span> c_rate<span class="p">[</span>i<span class="p">]</span><span class="o">*</span>rate_function<span class="p">(</span>x <span class="o">=</span> Z<span class="p">[</span>j<span class="p">,</span>n<span class="p">],</span> const <span class="o">=</span> K<span class="p">[</span>i<span class="p">]))</span> <span class="o">+</span> c_rate<span class="p">[</span>i<span class="p">]</span><span class="o">*</span><span class="kp">sqrt</span><span class="p">(</span>delta<span class="p">)</span><span class="o">*</span>rnorm<span class="p">(</span><span class="m">1</span><span class="p">,</span> mean <span class="o">=</span> <span class="m">0</span><span class="p">,</span> sd <span class="o">=</span> <span class="m">1</span><span class="p">)</span><span class="o">*</span><span class="kp">sqrt</span><span class="p">(</span>rate_function<span class="p">(</span>x <span class="o">=</span> Z<span class="p">[</span>j<span class="p">,</span>n<span class="p">],</span> const <span class="o">=</span> K<span class="p">[</span>i<span class="p">])</span><span class="o">/</span>p<span class="p">)</span>
-      <span class="p">}</span> <span class="kr">else</span> <span class="p">{</span> 
-        Z<span class="p">[</span>k<span class="p">,</span> n <span class="o">+</span> <span class="m">1</span><span class="p">]</span> <span class="o">=</span> Z<span class="p">[</span>k<span class="p">,</span>n<span class="p">]</span> <span class="o">+</span> delta<span class="o">*</span><span class="p">(</span><span class="o">-</span>nu<span class="p">[</span>i<span class="p">]</span><span class="o">*</span>Z<span class="p">[</span>k<span class="p">,</span> n<span class="p">])</span> <span class="o">+</span> Z<span class="p">[</span>k <span class="o">+</span> <span class="m">1</span><span class="p">,</span>n<span class="p">]</span> 
-      <span class="p">}</span>
-    <span class="p">}</span>
-  <span class="p">}</span>
-  <span class="kr">return</span><span class="p">(</span>Z<span class="p">)</span>
-<span class="p">}</span>
-</pre></div>
-
-
-<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width < 768) ? "left" : align;
-        indent = (screen.width < 768) ? "0em" : indent;
-        linebreak = (screen.width < 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-</script>
-      <br>
-      <a class="btn" href="../hypoelliptic_R.html#hypoelliptic_R">    Continue reading
 </a>
   </div>
   <hr />
@@ -237,10 +119,8 @@ where <span class="math">\(\{h_{jl}:\mathds{R}_+\to\mathds{R}\}\)</span> is a fa
     </p>
   </header>
   <div>
-      <p>I will introduce here some short explanation of what am I doing here as soon as I set up al the plagins properly. </p>
-<p>To get some basic idea about my subject, you can check my <a href="documents/Melnykova_Thesis.pdf">Master Thesis</a> and corresponding <a href="documents/Melnykova_Presentation.pdf">slides</a>.</p>
-<p>More (for example, codes) will be provided soon. 
-Check <a href="hypoelliptic_R.html">this</a>.</p>
+      <p>To get some basic idea about my subject, you can check my <a href="documents/Melnykova_Thesis.pdf">Master Thesis</a> and corresponding <a href="documents/Melnykova_Presentation.pdf">slides</a>.</p>
+<p>More (for example, codes) will be provided soon. </p>
       <br>
       <a class="btn" href="../research.html#research">    Continue reading
 </a>
