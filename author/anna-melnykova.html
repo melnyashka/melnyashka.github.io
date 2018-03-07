@@ -142,85 +142,80 @@ France</p>
 </article>
 <article>
   <header>
-    <h2><a href="../cv.html#cv">CV</a></h2>
+    <h2><a href="../proba5.html#proba5">Explain me like I'm 5: Basics of probability theory</a></h2>
     <p>
 
     </p>
   </header>
   <div>
-      <p>PDF version can be downloaded <a href="documents/melnykova_cv.pdf">here</a>. </p>
-<h4>Education:</h4>
-<table>
-<thead>
-<tr>
-<th align="right"></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right"><strong>From 2017</strong></td>
-<td align="left">PhD student in <a href="https://u-cergy.fr">University of Cergy-Pontoise</a>, France</td>
-</tr>
-<tr>
-<td align="right"><strong>2016-2017</strong></td>
-<td align="left">Master 2 (Statistics) in <a href="https://univ-grenoble-alpes.fr/en">University of Grenoble Alpes</a>, France</td>
-</tr>
-<tr>
-<td align="right"><strong>2014-2016</strong></td>
-<td align="left">Master's Degree in Mathematics at NTUU "KPI", Ukraine</td>
-</tr>
-<tr>
-<td align="right"><strong>2015-2016</strong></td>
-<td align="left">Exchange semester (Financial Mathematics Master's program) in <a href="https://uni-ulm.de/en/">University of Ulm</a>, Germany</td>
-</tr>
-<tr>
-<td align="right"><strong>June 2014</strong></td>
-<td align="left">Bachelor's Degree in Mathematics at <a href="https://kpi.ua/en">NTUU "KPI"</a>, Ukraine</td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<h4>Schools:</h4>
-<table>
-<thead>
-<tr>
-<th align="right"></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right"><strong>December 2017</strong></td>
-<td align="left"><a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN">Winter School on Deterministic and Stochastic Models in Neuroscience</a>, Toulouse, France</td>
-</tr>
-<tr>
-<td align="right"><strong>August 2015</strong></td>
-<td align="left"><a href="http://summerschool.ssa.org.ua">AACIMP Summer School</a> (Applied Computer Science track), Kiev, Ukraine</td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<h4>Conferences:</h4>
-<p>TBA</p>
-<h4>Publications:</h4>
-<p>A. Melnykova - <em>"Parametric inference for multidimensional hypoelliptic diffusion with full observations"</em> submitted, preprint available on <a href="https://arxiv.org/pdf/1802.02943.pdf">ArXiv</a></p>
-<h4>Internships:</h4>
-<p><strong>02-07/2017</strong> - Master Internship in <a href="https://ljk.imag.fr">Laboratoire Jean Kuntzmann</a> (Grenoble, France). <strong>Subject:</strong>  Statistics for neuroscience  <br>
-<strong>11-12/2014</strong> - Internship in <a href="https://sgtas.com.ua/en">TAS Insurance Group</a> (Kiev, Ukraine). <strong>Subject:</strong> risk modelling, compound interest rates. </p>
-<h4>Language proficiency:</h4>
-<p><strong>English</strong>: Advanced<br>
-<strong>German</strong>: Advanced<br>
-<strong>French</strong>: Intermediate<br>
-<strong>Russian, Ukrainian</strong>: mother tongues</p>
+      <h4>Probability space</h4>
+<p><em>Formal definition</em>: </p>
+<p><em>Plain English explanation</em>:</p>
+<p><strong>Filtration</strong> - available information about the process, can be considered as logs. 
+<strong>Natural filtration</strong> - contains all the information about the given process, and only this information.<br>
+Process is <strong>adapted to filtration</strong> if the information about the state of the given process at time <span class="math">\(t\)</span> contains at <span class="math">\(\sigma\)</span>-algebra <span class="math">\(\mathcal{F}\)</span>. </p>
+<p><strong>Q: Why do we need a <span class="math">\(\sigma\)</span>-algebra when talking about stochastic processes?</strong> 
+A: Just to restrict ourselves to the case when all the events we are talking about can be assigned a probability measure</p>
+<h4>Martingales: local martingales, sub- and supermartingales, semimartingales,</h4>
+<h4>Markov property</h4>
+<h4>Solutions of SDEs</h4>
+<script type="text/javascript">if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width < 768) ? "left" : align;
+        indent = (screen.width < 768) ? "0em" : indent;
+        linebreak = (screen.width < 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+</script>
       <br>
-      <a class="btn" href="../cv.html#cv">    Continue reading
+      <a class="btn" href="../proba5.html#proba5">    Continue reading
 </a>
   </div>
   <hr />
@@ -255,6 +250,71 @@ France</p>
 </ul>
       <br>
       <a class="btn" href="../research.html#research">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../cv.html#cv">CV</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <p>PDF version can be downloaded <a href="documents/melnykova_cv.pdf">here</a>. </p>
+<table>
+<thead>
+<tr>
+<th align="right"><font size = "4" color = "DimGrey">Education:</font></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>From 2017</strong></td>
+<td align="left">PhD student in <a href="https://u-cergy.fr">University of Cergy-Pontoise</a>, France</td>
+</tr>
+<tr>
+<td align="right"><strong>2016-2017</strong></td>
+<td align="left">Master 2 (Statistics) in <a href="https://univ-grenoble-alpes.fr/en">University of Grenoble Alpes</a>, France</td>
+</tr>
+<tr>
+<td align="right"><strong>2014-2016</strong></td>
+<td align="left">Master's Degree in Mathematics at NTUU "KPI", Ukraine</td>
+</tr>
+<tr>
+<td align="right"><strong>2015-2016</strong></td>
+<td align="left">Exchange semester (Financial Mathematics Master's program) in <a href="https://uni-ulm.de/en/">University of Ulm</a>, Germany</td>
+</tr>
+<tr>
+<td align="right"><strong>June 2014</strong></td>
+<td align="left">Bachelor's Degree in Mathematics at <a href="https://kpi.ua/en">NTUU "KPI"</a>, Ukraine</td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><font size = "4" color = "DimGrey">Talks:</font> </p>
+<p><strong>June 2018</strong> -  <em>"Parametric inference for multidimensional hypoelliptic diffusion"</em> at <a href="https://sites.google.com/gcloud.fe.up.pt/dynstoch2018/home">DynStoch 2018</a>, Porto, Portugal</p>
+<p><font size = "4" color = "DimGrey">Schools:</font></p>
+<p><strong>December 2017</strong> - <a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN">Winter School on Deterministic and Stochastic Models in Neuroscience</a>, Toulouse, France<br>
+<strong>August 2015</strong> - <a href="http://summerschool.ssa.org.ua">AACIMP Summer School</a> (Applied Computer Science track), Kiev, Ukraine</p>
+<p><font size = "4" color = "DimGrey">Publications:</font></p>
+<p>A. Melnykova - <em>"Parametric inference for multidimensional hypoelliptic diffusion with full observations"</em> submitted, preprint available on <a href="https://arxiv.org/pdf/1802.02943.pdf">ArXiv</a></p>
+<p><font size = "4" color = "DimGrey">Internships:</font> </p>
+<p><strong>2017</strong> - Master Internship in <a href="https://ljk.imag.fr">Laboratoire Jean Kuntzmann</a> (Grenoble, France). <strong>Subject:</strong>  Statistics for neuroscience  <br>
+<strong>2014</strong> - Internship in <a href="https://sgtas.com.ua/en">TAS Insurance Group</a> (Kiev, Ukraine). <strong>Subject:</strong> risk modelling, compound interest rates.</p>
+<p><font size = "4" color = "DimGrey">Language proficiency:</font> </p>
+<p><strong>English</strong>: Advanced<br>
+<strong>German</strong>: Advanced<br>
+<strong>French</strong>: Intermediate<br>
+<strong>Russian, Ukrainian</strong>: mother tongues</p>
+      <br>
+      <a class="btn" href="../cv.html#cv">    Continue reading
 </a>
   </div>
   <hr />
