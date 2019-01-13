@@ -77,6 +77,64 @@
 
 <article>
   <header>
+    <h2><a href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">9 circles of LaTeX hell. Rookie edition.</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <h3>1. Messing with labels</h3>
+<p>If I could give a younger version of myself a single advice on the LaTeX, it would be "Thou shall give good names to your labels, for you shall permanently reuse your documents". By good name I mean something like <em>section:introduction</em>, <em>subsection:model_assumption</em>, <em>eq:drift_approximation</em>, <em>table:comparison_schemes</em>, not a mess of <em>intro</em>, <em>assum1</em>, <em>DrAppr</em>, <em>CompScheme</em>. You should do it for two reasons:</p>
+<ul>
+<li>Starting the name of the label from the type (section, subsection, equation, figure) is a good idea, because it makes so much easier to use autocompletion without scrolling through all those names...</li>
+<li>Which you will forget sooner than you believe! Keep in mind that you will reuse most of your reports dozens of time, so save your time</li>
+</ul>
+<p>Few packages which will make your life easier:</p>
+<ul>
+<li>showonlyref</li>
+</ul>
+<h3>2. Messing with references</h3>
+<p>Reference properly </p>
+<h3>3. Messing with long formulas</h3>
+<p>Know the difference between multline, align, grouped etc. </p>
+<p>The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:</p>
+<ul>
+<li><em>{equation}</em> is used for one-line equations only</li>
+<li><em>{multline}</em> is used for ONE equation, splitted on several lines, with cascade-style alignment</li>
+<li><em>{gather}</em> is used for centering a GROUP of equations (with separate label for EACH equation). Environment <em>{gathered}</em> is used inside an environment <em>{equation}</em> and does the same job as <em>{gather}</em>, but allocating ONE label to the group</li>
+<li><em>{align}</em> (and, respectively, <em>{aligned}</em>) allows a custom alignment for  multiline equations (or group of equations). </li>
+</ul>
+<h3>4. Messing with bibliography</h3>
+<p>Alternative title would be a "life-changing magic of using JabRef". Let me convince you why JabRef is adorable (if you are not using it already):  </p>
+<ul>
+<li>It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. </li>
+<li>It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. </li>
+<li>Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. </li>
+<li>JabRef is free, cross-platform and open source (consider a donation!)</li>
+</ul>
+<h3>5. Not tracking changes</h3>
+<p>latexdiff, vimdiff, changes</p>
+<p>Make copies</p>
+<h3>6. Not playing well with the others</h3>
+<p>How to collaborate and track changes</p>
+<h3>7. Messing with code and algorithms</h3>
+<p>Applies mostly to working reports. </p>
+<h3>8. Not fancifying</h3>
+<p>LaTeX is powerful! Why not using it properly?</p>
+<h3>9. Loosing track of packages</h3>
+<p>It should be obvious, but still: it is not a good idea to copy-paste the same once-and-for-all adjusted header of your TeX document in all the documents, with all the packages which you are have used only once or twice in your life. Try to keep it simple, and you will avoid:</p>
+<ul>
+<li>increased compilation time</li>
+<li>compilation problems when using some custom template (for example, journal or conference template)  </li>
+</ul>
+      <br>
+      <a class="btn" href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
     <h2><a href="../404-not-found.html#404-not-found">404 - not found</a></h2>
     <p>
 

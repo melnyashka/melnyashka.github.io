@@ -77,6 +77,314 @@
 
 <article>
   <header>
+    <h2><a href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">9 circles of LaTeX hell. Rookie edition.</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <h3>1. Messing with labels</h3>
+<p>If I could give a younger version of myself a single advice on the LaTeX, it would be "Thou shall give good names to your labels, for you shall permanently reuse your documents". By good name I mean something like <em>section:introduction</em>, <em>subsection:model_assumption</em>, <em>eq:drift_approximation</em>, <em>table:comparison_schemes</em>, not a mess of <em>intro</em>, <em>assum1</em>, <em>DrAppr</em>, <em>CompScheme</em>. You should do it for two reasons:</p>
+<ul>
+<li>Starting the name of the label from the type (section, subsection, equation, figure) is a good idea, because it makes so much easier to use autocompletion without scrolling through all those names...</li>
+<li>Which you will forget sooner than you believe! Keep in mind that you will reuse most of your reports dozens of time, so save your time</li>
+</ul>
+<p>Few packages which will make your life easier:</p>
+<ul>
+<li>showonlyref</li>
+</ul>
+<h3>2. Messing with references</h3>
+<p>Reference properly </p>
+<h3>3. Messing with long formulas</h3>
+<p>Know the difference between multline, align, grouped etc. </p>
+<p>The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:</p>
+<ul>
+<li><em>{equation}</em> is used for one-line equations only</li>
+<li><em>{multline}</em> is used for ONE equation, splitted on several lines, with cascade-style alignment</li>
+<li><em>{gather}</em> is used for centering a GROUP of equations (with separate label for EACH equation). Environment <em>{gathered}</em> is used inside an environment <em>{equation}</em> and does the same job as <em>{gather}</em>, but allocating ONE label to the group</li>
+<li><em>{align}</em> (and, respectively, <em>{aligned}</em>) allows a custom alignment for  multiline equations (or group of equations). </li>
+</ul>
+<h3>4. Messing with bibliography</h3>
+<p>Alternative title would be a "life-changing magic of using JabRef". Let me convince you why JabRef is adorable (if you are not using it already):  </p>
+<ul>
+<li>It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. </li>
+<li>It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. </li>
+<li>Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. </li>
+<li>JabRef is free, cross-platform and open source (consider a donation!)</li>
+</ul>
+<h3>5. Not tracking changes</h3>
+<p>latexdiff, vimdiff, changes</p>
+<p>Make copies</p>
+<h3>6. Not playing well with the others</h3>
+<p>How to collaborate and track changes</p>
+<h3>7. Messing with code and algorithms</h3>
+<p>Applies mostly to working reports. </p>
+<h3>8. Not fancifying</h3>
+<p>LaTeX is powerful! Why not using it properly?</p>
+<h3>9. Loosing track of packages</h3>
+<p>It should be obvious, but still: it is not a good idea to copy-paste the same once-and-for-all adjusted header of your TeX document in all the documents, with all the packages which you are have used only once or twice in your life. Try to keep it simple, and you will avoid:</p>
+<ul>
+<li>increased compilation time</li>
+<li>compilation problems when using some custom template (for example, journal or conference template)  </li>
+</ul>
+      <br>
+      <a class="btn" href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../books.html#books">Books</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <p>Here is non-exhaustive list of books I like, kind of sorted by subjects. </p>
+<h4>Old but gold</h4>
+<ul>
+<li>S. Sturluson "Younger Edda"</li>
+<li>J. Verne "L'Ile mistérieuse"</li>
+<li>E. Brontë "Wuthering Heights"</li>
+<li>C. Brontë "Jane Eyre"</li>
+<li>A.C. Doyle "The Adventures of Sherlock Holmes"</li>
+<li>J. London "The Call of the Wild"</li>
+<li>J. London "White Fang"</li>
+<li>J. London "Martin Eden"</li>
+<li>O. Henry "Collection of short stories"</li>
+<li>C. Dickens "David Copperfield"</li>
+<li>C. Dickens "The Christmas Carol"</li>
+</ul>
+<h4>Wars and politics</h4>
+<ul>
+<li>E.M. Remarque "Im Westen nichts Neues"</li>
+<li>D. Trumbo "Johny Got His Gun"</li>
+<li>J. Hasek "The Good Soldier Svejk" <strong>&lt;--This one is funny</strong></li>
+<li>S. Alexievich "The Unwomanly Face of War" </li>
+<li>A. Lindgren "Die Menschheit hat den Verstand verloren"</li>
+<li>K. Vonnegut "Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death"</li>
+<li>A. Solzhenitsyn "The Gulag Archipelago"</li>
+<li>G. Orwell "Animal Farm"</li>
+<li>G. Orwell "1984"</li>
+<li>G. Orwell "Homage to Catalonia"</li>
+<li>Heinrich Böll "Wanderer, kommst du nach Spa..." <em>(short story)</em></li>
+<li>W. S. Maugham "The Unconquered" <em>(short story)</em></li>
+</ul>
+<h4>Books for... well, staring at the ceiling and thinking about life</h4>
+<ul>
+<li>M. Boulgakov "The Master and Margarita"</li>
+<li>A. Solzhenitsyn "Cancer Ward"</li>
+<li>S. Zweig "Schachnovelle"</li>
+<li>J. Fowles "The Collector"</li>
+<li>V. Nabokov "Lolita"</li>
+<li>L. Tolstoi "Anna Karenina"</li>
+<li>T. Dreiser "Trilogy of Desire"</li>
+</ul>
+<h4>Books for aggravating your depression...</h4>
+<h5>... because people are mean and/or stupid, system is rotten and the life has no sense</h5>
+<ul>
+<li>G. Orwell "Keep the Aspidistra Flying" </li>
+<li>A. Schopenhauer "Aphorismen zur Lebensweisheit"</li>
+<li>W. Golding "Lord of the Flies"</li>
+<li>A. Camus "L'étranger"</li>
+<li>A. Camus "La Peste"</li>
+<li>J-P. Sartre "La Nausée"</li>
+<li>R. Bradbury "Fahrenheit 451"</li>
+<li>A. Huxley "Brave New World"</li>
+<li>D. Keyes "Flowers for Algernon"</li>
+<li>F. Dostoevsky "Crime and Punishment"</li>
+<li>E.M. Remarque (any book except for "Im Westen nichts Neues")</li>
+<li>F. Kafka "Die Verwandlung"</li>
+<li>K. Hamsen "Hunger"</li>
+</ul>
+<h5>... so you just want everyone to disappear</h5>
+<ul>
+<li>A. Weisman "The World Without Us" <em>(non-fiction)</em></li>
+<li>C.H. Kearny "Nuclear War Survival Skills" <em>(civil defense)</em></li>
+</ul>
+<h5>... but you are too lazy to do something about it</h5>
+<ul>
+<li>I.Goncharov "Oblomov"</li>
+<li>J.D. Salinger "The Catcher in the Rye"</li>
+</ul>
+<h4>Non-fictional accounts on all kind of things:</h4>
+<h5>... on bad life</h5>
+<ul>
+<li>Yeonmi Park "In order to live" <em>(on escape from North Korea)</em></li>
+<li>Christiane F. "Wir Kinder vom Bahnhof Zoo" <em>(on sad life in West Berlin in 70th, drugs, rock-n-roll and prostitution)</em></li>
+<li>P. Kalanithi "When Breath Becomes Air" <em>(autobiographical book about a metastatic lung cancer)</em></li>
+<li>O. Rolin "Le Météorologe" <em>(On the life of A.F. Wangenheim)</em></li>
+</ul>
+<h5>... on fun life</h5>
+<ul>
+<li>H.S. Thompson "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream"</li>
+<li>H.S. Thompson "The Rum Diary"</li>
+<li>J. Krakauer "Into the Wild"</li>
+<li>B. Mezrich "Bringing Down the House: The Inside Story of Six MIT Students who Took Vegas for Millions"</li>
+</ul>
+<h5>... on professional life</h5>
+<ul>
+<li>J. Melinek "Working Stiff: 2 Years, 262 Bodies, and the Making of a Medical Examiner"" <em>(Forensic pathology)</em></li>
+<li>A. Lomachinsky "Stories of a Forensic Expert"</li>
+<li>M. Bulgakov "A Young Doctor's Notebook" <em>(semi-fictional)</em></li>
+<li>O. Sacks "The Man Who Mistook His Wife for a Hat" <em>(psychiatry)</em></li>
+<li>R. Feynman "Surely You're joking Mr. Feynman!"</li>
+<li>R. Feynman "What do you care what other people think"</li>
+</ul>
+<h5>... on mountaineering</h5>
+<ul>
+<li>H. Harrer "Sieben Jahren in Tibet. Mein Leben am Hofe des Dalai Lama"</li>
+<li>J. Krakauer "Into Thin Air"</li>
+<li>A. Boukreev "The Climb"</li>
+<li>M. Herzog "Annapurna: premier 8000"</li>
+<li>E. Viesturs "K2: Life and Death on the World's Most Dangerous Mountain"</li>
+<li>E. Viesturs "The Will to Climb: Obsession and Commitment and the Quest to Climb Annapurna - the World's Deadliest Peak"</li>
+</ul>
+<h5>... on natural (or not) disasters</h5>
+<ul>
+<li>S. Alexievich "Chernobyl Prayer: A chronicle of the Future" </li>
+<li>A. Kuznetsov "Babi Yar: A document in the Form of a Novel"</li>
+<li>D. Simmons "The Terror" <strong>&lt;-- this one is fictionalized</strong> <em>(on Captain Sir John Franklin's lost expedititon)</em></li>
+<li>P.P. Read "Alive: The Story of the Andes Survivors" <em>(on Andes plane crash)</em></li>
+</ul>
+<h4>Science fiction</h4>
+<ul>
+<li>R.A. Heinlein "Starship Troopers"</li>
+<li>K. Vonnegut "Timequake"</li>
+<li>S. Lem "Solaris"</li>
+<li>Arkady and Boris Strugatsky "Roadside Picnic"</li>
+<li>Arkady and Boris Strugarsky "Monday Begins on Saturday"</li>
+</ul>
+<h4>Humour</h4>
+<ul>
+<li>J.K. Jerome "Three Men in a Boat (To Say Nothing of the Dog)"</li>
+<li>M. Twain "Letters from the Earth"</li>
+<li>T. Pratchett "The Unadulterated Cat"</li>
+<li>M. Pagnol "La gloire de mon père"</li>
+<li>M. Pagnol "Le chầteau de ma mère"</li>
+<li>A.P. Chekhov - Short Stories</li>
+<li>M.M. Zoshchenko - Short Stories</li>
+<li>L. Solovyov "The Tale of Hodja Nasreddin: Disturber of the Peace"</li>
+<li>L. Solovyov "The Beggar in the Harem: Impudent Adventures in Old Bukhara" </li>
+<li>H.P. Lovecraft "Sweet Ermengarde"</li>
+</ul>
+<h4>Mystery and macabre</h4>
+<ul>
+<li>J. Sheridan Le Fanu "Carmilla"</li>
+<li>B. Stoker "Drakula"</li>
+<li>E.A. Poe "Tales of the Grotesque and Arabesque"</li>
+<li>N. Gogol "Evenings on a Farm Near Dikanka"</li>
+<li>W. Faulkner "A Rose for Emily" <em>(short story)</em></li>
+<li>A. Chekhov "Sleepy" <em>(short story)</em></li>
+<li>H.P. Lovecraft "The Call of Cthulhu"</li>
+<li>S. King "Insomnia"</li>
+</ul>
+<h4>Poesie</h4>
+<ul>
+<li>E.A. Poe "The Raven"</li>
+<li>C. Baudelaire "Les Fleurs du Mal"</li>
+<li>J.W. von Goethe "Erlkönig"</li>
+<li>J.W. von Goethe "Wandrers Nachtlied"</li>
+<li>H. Heine "Die Lorelei"</li>
+<li>F. Schiller "Das Mädchen aus der Fremde"</li>
+<li>folk ballad "Herr Mannelig"</li>
+<li>V. Mayakovsky "Backbone Flute"</li>
+<li>V. Mayakovsky "A cloud in Trousers"</li>
+</ul>
+      <br>
+      <a class="btn" href="../books.html#books">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../teaching.html#teaching">Teaching</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <h3>2018-2019</h3>
+<ul>
+<li>UFR IM2AG L3 - <strong>Méthodes statistiques pour la biologie</strong> (TP, 36h). <a href="http://chamilo.univ-grenoble-alpes.fr/courses/UESTA301/index.php">Lien vers Chamilo</a>.</li>
+</ul>
+<p><em>Statistique descriptive, lois de probabilités des variables aléatoires discrètes et continues usuelles, statistiaue décisionnelle: utilisation et application sur logiciel R</em></p>
+<ul>
+<li>UFR Science et Economie L2 - <strong>Probabilité et Statistique Inferentielles</strong> (TD, 20h) </li>
+</ul>
+      <br>
+      <a class="btn" href="../teaching.html#teaching">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="../cv.html#cv">CV</a></h2>
+    <p>
+
+    </p>
+  </header>
+  <div>
+      <p>PDF version can be downloaded <a href="documents/melnykova_cv.pdf">here</a>. </p>
+<table>
+<thead>
+<tr>
+<th align="right"><font size = "4" color = "DimGrey">Education:</font></th>
+<th align="left"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="right"><strong>From 2017</strong></td>
+<td align="left">PhD student in <a href="https://u-cergy.fr">University of Cergy-Pontoise</a>, France</td>
+</tr>
+<tr>
+<td align="right"><strong>2016-2017</strong></td>
+<td align="left">Master 2 (Statistics) in <a href="https://univ-grenoble-alpes.fr/en">University of Grenoble Alpes</a>, France</td>
+</tr>
+<tr>
+<td align="right"><strong>2014-2016</strong></td>
+<td align="left">Master's Degree in Mathematics at NTUU "KPI", Ukraine</td>
+</tr>
+<tr>
+<td align="right"><strong>2015-2016</strong></td>
+<td align="left">Exchange semester (Financial Mathematics Master's program) in <a href="https://uni-ulm.de/en/">University of Ulm</a>, Germany</td>
+</tr>
+<tr>
+<td align="right"><strong>June 2014</strong></td>
+<td align="left">Bachelor's Degree in Mathematics at <a href="https://kpi.ua/en">NTUU "KPI"</a>, Ukraine</td>
+</tr>
+<tr>
+<td align="right"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><font size = "4" color = "DimGrey">Talks:</font> </p>
+<p><strong>November 2018</strong> - <em>Horizontal gene transfer: numerical comparison between the stochastic and deterministic approach</em>, <a href="https://www-fourier.ujf-grenoble.fr/~coquilll/GdTmathbio.php">GdT MathBio</a>, Grenoble <a href="documents/MathBioTalk.pdf">(Slides)</a>  <br>
+<strong>September 2018</strong> - <em>Statistical challenges in neuroscience</em> at <a href="http://matan.kpi.ua/gikhman100conf/">"Stochastic Equations, Limit Theorems and Statistics of Stochastic Processes"</a>, Kiev, Ukraine<br>
+<strong>June 2018</strong> -  <em>"Parametric inference for multidimensional hypoelliptic diffusion"</em> at <a href="https://sites.google.com/gcloud.fe.up.pt/dynstoch2018/home">DynStoch 2018</a>, Porto, Portugal. <a href="documents/presentation_Dynstoch.pdf">(Slides)</a><br>
+<strong>May 2018</strong> - <em>"Parametric inference for multidimensional hypoelliptic diffusion"</em> at <a href="https://jds2018.sfds.asso.fr">JdS 2018</a>, Paris Saclay, France. <a href="documents/presentation_Jds.pdf">(Slides)</a> </p>
+<p><font size = "4" color = "DimGrey">Schools:</font>  </p>
+<p><strong>December 2018</strong> - <a href="https://www.lebesgue.fr/fr/content/seminars-masterclass18">Master Class on Ergodicity for stochastic processes</a>, Angers, France<br>
+<strong>December 2018</strong> - <a href="https://data-institute.univ-grenoble-alpes.fr/research/data-science-for-life-sciences/health-data-challenge-matrix-factorization-and-deconvolution-methods-to-quantify-tumor-heterogeneity-in-cancer-research-756672.htm">Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research</a>. Aussois, France<br>
+<strong>July-August 2018</strong> - <a href="http://smai.emath.fr/cemracs/cemracs18/">CEMRACS 2018 (summer school + 5 weeks research session)</a>. Numerical and mathematical modeling for biological and medical applications: deterministic, probabilistic and statistical descriptions. Luminy, France<br>
+<strong>December 2017</strong> - <a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN">Winter School on Deterministic and Stochastic Models in Neuroscience</a>, Toulouse, France<br>
+<strong>August 2015</strong> - <a href="http://summerschool.ssa.org.ua">AACIMP Summer School</a> (Applied Computer Science track), Kiev, Ukraine</p>
+<p><font size = "4" color = "DimGrey">Publications:</font></p>
+<p>V. Calvez, S.F. Iglesias, H. Hivért, S. Méléard, A. Melnykova, S. Nordmann - <em>"Horizontal gene transfer: numerical comparison between stochastic and deterministic approaches"</em> submitted to "ESAIM: Proceedings and surveys"</p>
+<p>A. Melnykova - <em>"Parametric inference for multidimensional hypoelliptic ergodic diffusion with full observations"</em> submitted, preprint available on <a href="https://arxiv.org/pdf/1802.02943.pdf">ArXiv</a></p>
+      <br>
+      <a class="btn" href="../cv.html#cv">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
     <h2><a href="../404-not-found.html#404-not-found">404 - not found</a></h2>
     <p>
 
@@ -258,262 +566,6 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 </ul>
       <br>
       <a class="btn" href="../research.html#research">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="../books.html#books">Books</a></h2>
-    <p>
-
-    </p>
-  </header>
-  <div>
-      <p>Here is non-exhaustive list of books I like, kind of sorted by subjects. </p>
-<h4>Old but gold</h4>
-<ul>
-<li>S. Sturluson "Younger Edda"</li>
-<li>J. Verne "L'Ile mistérieuse"</li>
-<li>E. Brontë "Wuthering Heights"</li>
-<li>C. Brontë "Jane Eyre"</li>
-<li>A.C. Doyle "The Adventures of Sherlock Holmes"</li>
-<li>J. London "The Call of the Wild"</li>
-<li>J. London "White Fang"</li>
-<li>J. London "Martin Eden"</li>
-<li>O. Henry "Collection of short stories"</li>
-<li>C. Dickens "David Copperfield"</li>
-<li>C. Dickens "The Christmas Carol"</li>
-</ul>
-<h4>Wars and politics</h4>
-<ul>
-<li>E.M. Remarque "Im Westen nichts Neues"</li>
-<li>D. Trumbo "Johny Got His Gun"</li>
-<li>J. Hasek "The Good Soldier Svejk" <strong>&lt;--This one is funny</strong></li>
-<li>S. Alexievich "The Unwomanly Face of War" </li>
-<li>A. Lindgren "Die Menschheit hat den Verstand verloren"</li>
-<li>K. Vonnegut "Slaughterhouse-Five, or The Children's Crusade: A Duty-Dance with Death"</li>
-<li>A. Solzhenitsyn "The Gulag Archipelago"</li>
-<li>G. Orwell "Animal Farm"</li>
-<li>G. Orwell "1984"</li>
-<li>G. Orwell "Homage to Catalonia"</li>
-<li>Heinrich Böll "Wanderer, kommst du nach Spa..." <em>(short story)</em></li>
-<li>W. S. Maugham "The Unconquered" <em>(short story)</em></li>
-</ul>
-<h4>Books for... well, staring at the ceiling and thinking about life</h4>
-<ul>
-<li>M. Boulgakov "The Master and Margarita"</li>
-<li>A. Solzhenitsyn "Cancer Ward"</li>
-<li>S. Zweig "Schachnovelle"</li>
-<li>J. Fowles "The Collector"</li>
-<li>V. Nabokov "Lolita"</li>
-<li>L. Tolstoi "Anna Karenina"</li>
-<li>T. Dreiser "Trilogy of Desire"</li>
-</ul>
-<h4>Books for aggravating your depression...</h4>
-<h5>... because people are mean and/or stupid, system is rotten and the life has no sense</h5>
-<ul>
-<li>G. Orwell "Keep the Aspidistra Flying" </li>
-<li>A. Schopenhauer "Aphorismen zur Lebensweisheit"</li>
-<li>W. Golding "Lord of the Flies"</li>
-<li>A. Camus "L'étranger"</li>
-<li>A. Camus "La Peste"</li>
-<li>J-P. Sartre "La Nausée"</li>
-<li>R. Bradbury "Fahrenheit 451"</li>
-<li>A. Huxley "Brave New World"</li>
-<li>D. Keyes "Flowers for Algernon"</li>
-<li>F. Dostoevsky "Crime and Punishment"</li>
-<li>E.M. Remarque (any book except for "Im Westen nichts Neues")</li>
-<li>F. Kafka "Die Verwandlung"</li>
-<li>K. Hamsen "Hunger"</li>
-</ul>
-<h5>... so you just want everyone to disappear</h5>
-<ul>
-<li>A. Weisman "The World Without Us" <em>(non-fiction)</em></li>
-<li>C.H. Kearny "Nuclear War Survival Skills" <em>(civil defense)</em></li>
-</ul>
-<h5>... but you are too lazy to do something about it</h5>
-<ul>
-<li>I.Goncharov "Oblomov"</li>
-<li>J.D. Salinger "The Catcher in the Rye"</li>
-</ul>
-<h4>Non-fictional accounts on all kind of things:</h4>
-<h5>... on bad life</h5>
-<ul>
-<li>Yeonmi Park "In order to live" <em>(on escape from North Korea)</em></li>
-<li>Christiane F. "Wir Kinder vom Bahnhof Zoo" <em>(on sad life in West Berlin in 70th, drugs, rock-n-roll and prostitution)</em></li>
-<li>P. Kalanithi "When Breath Becomes Air" <em>(autobiographical book about a metastatic lung cancer)</em></li>
-<li>O. Rolin "Le Météorologe" <em>(On the life of A.F. Wangenheim)</em></li>
-</ul>
-<h5>... on fun life</h5>
-<ul>
-<li>H.S. Thompson "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream"</li>
-<li>H.S. Thompson "The Rum Diary"</li>
-<li>J. Krakauer "Into the Wild"</li>
-<li>B. Mezrich "Bringing Down the House: The Inside Story of Six MIT Students who Took Vegas for Millions"</li>
-</ul>
-<h5>... on professional life</h5>
-<ul>
-<li>J. Melinek "Working Stiff: 2 Years, 262 Bodies, and the Making of a Medical Examiner"" <em>(Forensic pathology)</em></li>
-<li>A. Lomachinsky "Stories of a Forensic Expert"</li>
-<li>M. Bulgakov "A Young Doctor's Notebook" <em>(semi-fictional)</em></li>
-<li>O. Sacks "The Man Who Mistook His Wife for a Hat" <em>(psychiatry)</em></li>
-<li>R. Feynman "Surely You're joking Mr. Feynman!"</li>
-<li>R. Feynman "What do you care what other people think"</li>
-</ul>
-<h5>... on mountaineering</h5>
-<ul>
-<li>H. Harrer "Sieben Jahren in Tibet. Mein Leben am Hofe des Dalai Lama"</li>
-<li>J. Krakauer "Into Thin Air"</li>
-<li>A. Boukreev "The Climb"</li>
-<li>M. Herzog "Annapurna: premier 8000"</li>
-<li>E. Viesturs "K2: Life and Death on the World's Most Dangerous Mountain"</li>
-<li>E. Viesturs "The Will to Climb: Obsession and Commitment and the Quest to Climb Annapurna - the World's Deadliest Peak"</li>
-</ul>
-<h5>... on natural (or not) disasters</h5>
-<ul>
-<li>S. Alexievich "Chernobyl Prayer: A chronicle of the Future" </li>
-<li>A. Kuznetsov "Babi Yar: A document in the Form of a Novel"</li>
-<li>D. Simmons "The Terror" <strong>&lt;-- this one is fictionalized</strong> <em>(on Captain Sir John Franklin's lost expedititon)</em></li>
-<li>P.P. Read "Alive: The Story of the Andes Survivors" <em>(on Andes plane crash)</em></li>
-</ul>
-<h4>Science fiction</h4>
-<ul>
-<li>R.A. Heinlein "Starship Troopers"</li>
-<li>K. Vonnegut "Timequake"</li>
-<li>S. Lem "Solaris"</li>
-<li>Arkady and Boris Strugatsky "Roadside Picnic"</li>
-<li>Arkady and Boris Strugarsky "Monday Begins on Saturday"</li>
-</ul>
-<h4>Humour</h4>
-<ul>
-<li>J.K. Jerome "Three Men in a Boat (To Say Nothing of the Dog)"</li>
-<li>M. Twain "Letters from the Earth"</li>
-<li>T. Pratchett "The Unadulterated Cat"</li>
-<li>M. Pagnol "La gloire de mon père"</li>
-<li>M. Pagnol "Le chầteau de ma mère"</li>
-<li>A.P. Chekhov - Short Stories</li>
-<li>M.M. Zoshchenko - Short Stories</li>
-<li>L. Solovyov "The Tale of Hodja Nasreddin: Disturber of the Peace"</li>
-<li>L. Solovyov "The Beggar in the Harem: Impudent Adventures in Old Bukhara" </li>
-<li>H.P. Lovecraft "Sweet Ermengarde"</li>
-</ul>
-<h4>Mystery and macabre</h4>
-<ul>
-<li>J. Sheridan Le Fanu "Carmilla"</li>
-<li>B. Stoker "Drakula"</li>
-<li>E.A. Poe "Tales of the Grotesque and Arabesque"</li>
-<li>N. Gogol "Evenings on a Farm Near Dikanka"</li>
-<li>W. Faulkner "A Rose for Emily" <em>(short story)</em></li>
-<li>A. Chekhov "Sleepy" <em>(short story)</em></li>
-<li>H.P. Lovecraft "The Call of Cthulhu"</li>
-<li>S. King "Insomnia"</li>
-</ul>
-<h4>Poesie</h4>
-<ul>
-<li>E.A. Poe "The Raven"</li>
-<li>C. Baudelaire "Les Fleurs du Mal"</li>
-<li>J.W. von Goethe "Erlkönig"</li>
-<li>J.W. von Goethe "Wandrers Nachtlied"</li>
-<li>H. Heine "Die Lorelei"</li>
-<li>F. Schiller "Das Mädchen aus der Fremde"</li>
-<li>folk ballad "Herr Mannelig"</li>
-<li>V. Mayakovsky "Backbone Flute"</li>
-<li>V. Mayakovsky "A cloud in Trousers"</li>
-</ul>
-      <br>
-      <a class="btn" href="../books.html#books">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="../teaching.html#teaching">Teaching</a></h2>
-    <p>
-
-    </p>
-  </header>
-  <div>
-      <h3>2018-2019</h3>
-<ul>
-<li>UFR IM2AG L3 - <strong>Méthodes statistiques pour la biologie</strong> (TP). <a href="http://chamilo.univ-grenoble-alpes.fr/courses/UESTA301/index.php">Lien vers Chamilo</a>.</li>
-</ul>
-<p><em>Statistique descriptive, lois de probabilités des variables aléatoires discrètes et continues usuelles, statistiaue décisionnelle: utilisation et application sur logiciel R</em></p>
-      <br>
-      <a class="btn" href="../teaching.html#teaching">    Continue reading
-</a>
-  </div>
-  <hr />
-</article>
-<article>
-  <header>
-    <h2><a href="../cv.html#cv">CV</a></h2>
-    <p>
-
-    </p>
-  </header>
-  <div>
-      <p>PDF version can be downloaded <a href="documents/melnykova_cv.pdf">here</a>. </p>
-<table>
-<thead>
-<tr>
-<th align="right"><font size = "4" color = "DimGrey">Education:</font></th>
-<th align="left"></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="right"><strong>From 2017</strong></td>
-<td align="left">PhD student in <a href="https://u-cergy.fr">University of Cergy-Pontoise</a>, France</td>
-</tr>
-<tr>
-<td align="right"><strong>2016-2017</strong></td>
-<td align="left">Master 2 (Statistics) in <a href="https://univ-grenoble-alpes.fr/en">University of Grenoble Alpes</a>, France</td>
-</tr>
-<tr>
-<td align="right"><strong>2014-2016</strong></td>
-<td align="left">Master's Degree in Mathematics at NTUU "KPI", Ukraine</td>
-</tr>
-<tr>
-<td align="right"><strong>2015-2016</strong></td>
-<td align="left">Exchange semester (Financial Mathematics Master's program) in <a href="https://uni-ulm.de/en/">University of Ulm</a>, Germany</td>
-</tr>
-<tr>
-<td align="right"><strong>June 2014</strong></td>
-<td align="left">Bachelor's Degree in Mathematics at <a href="https://kpi.ua/en">NTUU "KPI"</a>, Ukraine</td>
-</tr>
-<tr>
-<td align="right"></td>
-<td align="left"></td>
-</tr>
-</tbody>
-</table>
-<p><font size = "4" color = "DimGrey">Talks:</font> </p>
-<p><strong>November 2018</strong> - <em>Horizontal gene transfer: numerical comparison between the stochastic and deterministic approach</em>, <a href="https://www-fourier.ujf-grenoble.fr/~coquilll/GdTmathbio.php">GdT MathBio</a>, Grenoble <a href="documents/MathBioTalk.pdf">(Slides)</a>  <br>
-<strong>September 2018</strong> - <em>Statistical challenges in neuroscience</em> at <a href="http://matan.kpi.ua/gikhman100conf/">"Stochastic Equations, Limit Theorems and Statistics of Stochastic Processes"</a>, Kiev, Ukraine<br>
-<strong>June 2018</strong> -  <em>"Parametric inference for multidimensional hypoelliptic diffusion"</em> at <a href="https://sites.google.com/gcloud.fe.up.pt/dynstoch2018/home">DynStoch 2018</a>, Porto, Portugal. <a href="documents/presentation_Dynstoch.pdf">(Slides)</a><br>
-<strong>May 2018</strong> - <em>"Parametric inference for multidimensional hypoelliptic diffusion"</em> at <a href="https://jds2018.sfds.asso.fr">JdS 2018</a>, Paris Saclay, France. <a href="documents/presentation_Jds.pdf">(Slides)</a> </p>
-<p><font size = "4" color = "DimGrey">Schools:</font>  </p>
-<p><strong>December 2018</strong> - <a href="https://www.lebesgue.fr/fr/content/seminars-masterclass18">Master Class on Ergodicity for stochastic processes</a>, Angers, France<br>
-<strong>December 2018</strong> - <a href="https://data-institute.univ-grenoble-alpes.fr/research/data-science-for-life-sciences/health-data-challenge-matrix-factorization-and-deconvolution-methods-to-quantify-tumor-heterogeneity-in-cancer-research-756672.htm">Health Data Challenge: Matrix factorization and deconvolution methods to quantify tumor heterogeneity in cancer research</a>. Aussois, France<br>
-<strong>July-August 2018</strong> - <a href="http://smai.emath.fr/cemracs/cemracs18/">CEMRACS 2018 (summer school + 5 weeks research session)</a>. Numerical and mathematical modeling for biological and medical applications: deterministic, probabilistic and statistical descriptions. Luminy, France<br>
-<strong>December 2017</strong> - <a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN">Winter School on Deterministic and Stochastic Models in Neuroscience</a>, Toulouse, France<br>
-<strong>August 2015</strong> - <a href="http://summerschool.ssa.org.ua">AACIMP Summer School</a> (Applied Computer Science track), Kiev, Ukraine</p>
-<p><font size = "4" color = "DimGrey">Publications:</font></p>
-<p>A. Melnykova - <em>"Parametric inference for multidimensional hypoelliptic diffusion with full observations"</em> submitted, preprint available on <a href="https://arxiv.org/pdf/1802.02943.pdf">ArXiv</a></p>
-<p><font size = "4" color = "DimGrey">Teaching:</font></p>
-<p><strong>2018-2019</strong> - <em>Méthodes statistiques pour la biologie</em> L3 UFR IM2AG (TP, 36h)</p>
-<p><font size = "4" color = "DimGrey">Internships:</font> </p>
-<p><strong>2017</strong> - Master Internship in <a href="https://ljk.imag.fr">Laboratoire Jean Kuntzmann</a> (Grenoble, France). <strong>Subject:</strong>  Statistics for neuroscience  <br>
-<strong>2014</strong> - Internship in <a href="https://sgtas.com.ua/en">TAS Insurance Group</a> (Kiev, Ukraine). <strong>Subject:</strong> risk modelling, compound interest rates.</p>
-<p><font size = "4" color = "DimGrey">Language proficiency:</font> </p>
-<p><strong>English</strong>: Advanced<br>
-<strong>German</strong>: Advanced<br>
-<strong>French</strong>: Intermediate<br>
-<strong>Russian, Ukrainian</strong>: mother tongues</p>
-      <br>
-      <a class="btn" href="../cv.html#cv">    Continue reading
 </a>
   </div>
   <hr />
