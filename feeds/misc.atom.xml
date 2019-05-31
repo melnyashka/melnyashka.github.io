@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anna Melnykova - misc</title><link href="/" rel="alternate"></link><link href="/feeds/misc.atom.xml" rel="self"></link><id>/</id><updated>2019-01-08T00:00:00+01:00</updated><entry><title>9 circles of LaTeX hell. Rookie edition.</title><link href="/9-circles-of-latex-hell.html" rel="alternate"></link><published>2019-01-08T00:00:00+01:00</published><updated>2019-01-08T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2019-01-08:/9-circles-of-latex-hell.html</id><summary type="html">&lt;h3&gt;1. Messing with labels&lt;/h3&gt;
+&lt;p&gt;If I could give a younger version of myself a single advice on the LaTeX, it would be "Thou shall give good names to your labels, for you shall permanently reuse your documents". By good name I mean something like &lt;em&gt;section:introduction&lt;/em&gt;, &lt;em&gt;subsection:model_assumption&lt;/em&gt;, &lt;em&gt;eq:drift_approximation&lt;/em&gt;, &lt;em&gt;table:comparison_schemes&lt;/em&gt;, not a mess of &lt;em&gt;intro&lt;/em&gt;, &lt;em&gt;assum1&lt;/em&gt;, &lt;em&gt;DrAppr&lt;/em&gt;, &lt;em&gt;CompScheme&lt;/em&gt;. You should do it for two reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Starting the name of the label from the type (section, subsection, equation, figure) is a good idea, because it makes so much easier to use autocompletion without scrolling through all those names...&lt;/li&gt;
+&lt;li&gt;Which you will forget sooner than you believe! Keep in mind that you will reuse most of your reports dozens of time, so save your time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Few packages which will make your life easier:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;showonlyref&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Messing with references&lt;/h3&gt;
+&lt;p&gt;Reference properly &lt;/p&gt;
+&lt;h3&gt;3. Messing with long formulas&lt;/h3&gt;
+&lt;p&gt;Know the difference between multline, align, grouped etc. &lt;/p&gt;
+&lt;p&gt;The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;{equation}&lt;/em&gt; is used for one-line equations only&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{multline}&lt;/em&gt; is used for ONE equation, splitted on several lines, with cascade-style alignment&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{gather}&lt;/em&gt; is used for centering a GROUP of equations (with separate label for EACH equation). Environment &lt;em&gt;{gathered}&lt;/em&gt; is used inside an environment &lt;em&gt;{equation}&lt;/em&gt; and does the same job as &lt;em&gt;{gather}&lt;/em&gt;, but allocating ONE label to the group&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{align}&lt;/em&gt; (and, respectively, &lt;em&gt;{aligned}&lt;/em&gt;) allows a custom alignment for  multiline equations (or group of equations). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Messing with bibliography&lt;/h3&gt;
+&lt;p&gt;Alternative title would be a "life-changing magic of using JabRef". Let me convince you why JabRef is adorable (if you are not using it already):  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. &lt;/li&gt;
+&lt;li&gt;It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. &lt;/li&gt;
+&lt;li&gt;Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. &lt;/li&gt;
+&lt;li&gt;JabRef is free, cross-platform and open source (consider a donation!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Not tracking changes&lt;/h3&gt;
+&lt;p&gt;latexdiff, vimdiff, changes&lt;/p&gt;
+&lt;p&gt;Make copies&lt;/p&gt;
+&lt;h3&gt;6. Not playing well with the others&lt;/h3&gt;
+&lt;p&gt;How to collaborate and track changes&lt;/p&gt;
+&lt;h3&gt;7. Messing with code and algorithms&lt;/h3&gt;
+&lt;p&gt;Applies mostly to working reports. &lt;/p&gt;
+&lt;h3&gt;8. Not fancifying&lt;/h3&gt;
+&lt;p&gt;LaTeX is powerful! Why not using it properly?&lt;/p&gt;
+&lt;h3&gt;9. Loosing track of packages&lt;/h3&gt;
+&lt;p&gt;It should be obvious, but still: it is not a good idea to copy-paste the same once-and-for-all adjusted header of your TeX document in all the documents, with all the packages which you are have used only once or twice in your life. Try to keep it simple, and you will avoid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;increased compilation time&lt;/li&gt;
+&lt;li&gt;compilation problems when using some custom template (for example, journal or conference template)  &lt;/li&gt;
+&lt;li&gt;any package manag?&lt;/li&gt;
+&lt;/ul&gt;</summary><content type="html">&lt;h3&gt;1. Messing with labels&lt;/h3&gt;
+&lt;p&gt;If I could give a younger version of myself a single advice on the LaTeX, it would be "Thou shall give good names to your labels, for you shall permanently reuse your documents". By good name I mean something like &lt;em&gt;section:introduction&lt;/em&gt;, &lt;em&gt;subsection:model_assumption&lt;/em&gt;, &lt;em&gt;eq:drift_approximation&lt;/em&gt;, &lt;em&gt;table:comparison_schemes&lt;/em&gt;, not a mess of &lt;em&gt;intro&lt;/em&gt;, &lt;em&gt;assum1&lt;/em&gt;, &lt;em&gt;DrAppr&lt;/em&gt;, &lt;em&gt;CompScheme&lt;/em&gt;. You should do it for two reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Starting the name of the label from the type (section, subsection, equation, figure) is a good idea, because it makes so much easier to use autocompletion without scrolling through all those names...&lt;/li&gt;
+&lt;li&gt;Which you will forget sooner than you believe! Keep in mind that you will reuse most of your reports dozens of time, so save your time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Few packages which will make your life easier:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;showonlyref&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;2. Messing with references&lt;/h3&gt;
+&lt;p&gt;Reference properly &lt;/p&gt;
+&lt;h3&gt;3. Messing with long formulas&lt;/h3&gt;
+&lt;p&gt;Know the difference between multline, align, grouped etc. &lt;/p&gt;
+&lt;p&gt;The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;{equation}&lt;/em&gt; is used for one-line equations only&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{multline}&lt;/em&gt; is used for ONE equation, splitted on several lines, with cascade-style alignment&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{gather}&lt;/em&gt; is used for centering a GROUP of equations (with separate label for EACH equation). Environment &lt;em&gt;{gathered}&lt;/em&gt; is used inside an environment &lt;em&gt;{equation}&lt;/em&gt; and does the same job as &lt;em&gt;{gather}&lt;/em&gt;, but allocating ONE label to the group&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;{align}&lt;/em&gt; (and, respectively, &lt;em&gt;{aligned}&lt;/em&gt;) allows a custom alignment for  multiline equations (or group of equations). &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;4. Messing with bibliography&lt;/h3&gt;
+&lt;p&gt;Alternative title would be a "life-changing magic of using JabRef". Let me convince you why JabRef is adorable (if you are not using it already):  &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. &lt;/li&gt;
+&lt;li&gt;It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. &lt;/li&gt;
+&lt;li&gt;Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. &lt;/li&gt;
+&lt;li&gt;JabRef is free, cross-platform and open source (consider a donation!)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;5. Not tracking changes&lt;/h3&gt;
+&lt;p&gt;latexdiff, vimdiff, changes&lt;/p&gt;
+&lt;p&gt;Make copies&lt;/p&gt;
+&lt;h3&gt;6. Not playing well with the others&lt;/h3&gt;
+&lt;p&gt;How to collaborate and track changes&lt;/p&gt;
+&lt;h3&gt;7. Messing with code and algorithms&lt;/h3&gt;
+&lt;p&gt;Applies mostly to working reports. &lt;/p&gt;
+&lt;h3&gt;8. Not fancifying&lt;/h3&gt;
+&lt;p&gt;LaTeX is powerful! Why not using it properly?&lt;/p&gt;
+&lt;h3&gt;9. Loosing track of packages&lt;/h3&gt;
+&lt;p&gt;It should be obvious, but still: it is not a good idea to copy-paste the same once-and-for-all adjusted header of your TeX document in all the documents, with all the packages which you are have used only once or twice in your life. Try to keep it simple, and you will avoid:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;increased compilation time&lt;/li&gt;
+&lt;li&gt;compilation problems when using some custom template (for example, journal or conference template)  &lt;/li&gt;
+&lt;li&gt;any package manag?&lt;/li&gt;
+&lt;/ul&gt;</content></entry><entry><title>404 - not found</title><link href="/404-not-found.html" rel="alternate"></link><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-05-08:/404-not-found.html</id><summary type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
+&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
+&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</content></entry><entry><title>Contacts</title><link href="/contacts.html" rel="alternate"></link><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-05-08:/contacts.html</id><summary type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
+&lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
+&lt;p&gt;Off. 132&lt;br&gt;
+&lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
+&lt;a href="https://batiment.imag.fr/en/contact-addresses-access" title="Acess to IMAG building"&gt;Bâtiment MAG&lt;/a&gt;&lt;br&gt;
+700 Avenue Centrale &lt;br&gt;
+38401 Saint-Martin-d'Hères&lt;br&gt;
+France&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</summary><content type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
+&lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
+&lt;p&gt;Off. 132&lt;br&gt;
+&lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
+&lt;a href="https://batiment.imag.fr/en/contact-addresses-access" title="Acess to IMAG building"&gt;Bâtiment MAG&lt;/a&gt;&lt;br&gt;
+700 Avenue Centrale &lt;br&gt;
+38401 Saint-Martin-d'Hères&lt;br&gt;
+France&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</content></entry><entry><title>Explain me like I'm 5: Basics of probability theory</title><link href="/proba5.html" rel="alternate"></link><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-05-08:/proba5.html</id><summary type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
+&lt;strong&gt;Natural filtration&lt;/strong&gt; - contains all the information about the given process, and only this information.&lt;br&gt;
+Process is &lt;strong&gt;adapted to filtration&lt;/strong&gt; if the information about the state of the given process at time &lt;span class="math"&gt;\(t\)&lt;/span&gt; contains at &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra &lt;span class="math"&gt;\(\mathcal{F}\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Why do we need a &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra when talking about stochastic processes?&lt;/strong&gt; 
+A: Just to restrict ourselves to the case when all the events we are talking about can be assigned a probability measure&lt;/p&gt;
+&lt;h4&gt;Martingales: local martingales, sub- and supermartingales, semimartingales,&lt;/h4&gt;
+&lt;h4&gt;Markov property&lt;/h4&gt;
+&lt;h4&gt;Solutions of SDEs&lt;/h4&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><content type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
+&lt;strong&gt;Natural filtration&lt;/strong&gt; - contains all the information about the given process, and only this information.&lt;br&gt;
+Process is &lt;strong&gt;adapted to filtration&lt;/strong&gt; if the information about the state of the given process at time &lt;span class="math"&gt;\(t\)&lt;/span&gt; contains at &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra &lt;span class="math"&gt;\(\mathcal{F}\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Why do we need a &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra when talking about stochastic processes?&lt;/strong&gt; 
+A: Just to restrict ourselves to the case when all the events we are talking about can be assigned a probability measure&lt;/p&gt;
+&lt;h4&gt;Martingales: local martingales, sub- and supermartingales, semimartingales,&lt;/h4&gt;
+&lt;h4&gt;Markov property&lt;/h4&gt;
+&lt;h4&gt;Solutions of SDEs&lt;/h4&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry><entry><title>Random</title><link href="/random.html" rel="alternate"></link><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-05-08:/random.html</id><summary type="html">&lt;p&gt;Here I will post all kinds of informal things. For example, you can check my small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015). &lt;/p&gt;
+&lt;p&gt;And &lt;a href="books.html"&gt;here&lt;/a&gt; you may find a list of books I find interesting. &lt;/p&gt;
+&lt;p&gt;todo: rookie guides&lt;/p&gt;</summary><content type="html">&lt;p&gt;Here I will post all kinds of informal things. For example, you can check my small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015). &lt;/p&gt;
+&lt;p&gt;And &lt;a href="books.html"&gt;here&lt;/a&gt; you may find a list of books I find interesting. &lt;/p&gt;
+&lt;p&gt;todo: rookie guides&lt;/p&gt;</content></entry><entry><title>Research</title><link href="/research.html" rel="alternate"></link><published>2018-05-08T00:00:00+02:00</published><updated>2018-05-08T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-05-08:/research.html</id><summary type="html">&lt;h3&gt;Latest news:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;11.04.2019&lt;/strong&gt; Freshly uploaded slides for today's talk at &lt;a href="https://www-ljk.imag.fr/Seminars/seminaires-ljk-probabilites_-_statistique.html"&gt;Seminaire du departement DATA&lt;/a&gt; are &lt;a href="documents/Brownian_dimension_testing.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25.03.2019&lt;/strong&gt; &lt;a href="https://www.mathenjeans.fr/Congres2019/Grenoble"&gt;Congrès Math.en.Jeans 2019&lt;/a&gt; will take place on campus Saint-Martin-d'Hères on 29-31 of March. Everyone (within the age limits from 4 to &lt;span class="math"&gt;\(\infty\)&lt;/span&gt;) is invited!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2019&lt;/strong&gt; PDF-version of the last lecture "Construction of the Lebesgue Integral" on the Probability Reading Group is &lt;a href="documents/lebesgue_integral.pdf"&gt;here&lt;/a&gt;. Next meeting will take place on 3d April in room 106 (Bâtiment IMAG). Don't miss! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;07.03.2019&lt;/strong&gt; thrilled to be invited to &lt;a href="https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/csaa19/index.html"&gt;CSA 2019&lt;/a&gt; in Norway! See you there on August 25-30. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11.01.2019&lt;/strong&gt; Version 2 of "Parametric inference for multidimensional hypoelliptic ergodic diffusion with full observations" is online on &lt;a href="https://hal.archives-ouvertes.fr/hal-01704010v2"&gt;HAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12.11.2018&lt;/strong&gt; Slides of my talk for a working group MathBio Grenoble are available &lt;a href="documents/MathBioTalk.pdf"&gt;here&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;04.08.2018&lt;/strong&gt; Working process on CEMRACS project "Horizontal Gene Transfer and Evolutionary rescue" can be now tracked with the help of our GitHub &lt;a href="https://github.com/melnyashka/horizontal_gene_transfer"&gt;repository&lt;/a&gt;. It includes codes for the simulation of individual-based model of bacteria population, deterministic model of a population density for large population size, and a corresponding Hamilton-Jacobi equation for small mutation probability. My collaborators are &lt;a href="https://math.univ-toulouse.fr/~sfiguero"&gt;Susely Figueroa Iglesias&lt;/a&gt; and &lt;a href="https://sites.google.com/view/samuelnordmann/"&gt;Samuel Nordmann&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;09.06.2018&lt;/strong&gt; Slides for my presentation at Journées de Statistique in Paris-Saclay are &lt;a href="documents/presentation_Jds.pdf"&gt;here&lt;/a&gt; and for DynStoch 2018 in Porto are &lt;a href="documents/presentation_Dynstoch.pdf"&gt;here&lt;/a&gt;. Both of them sum up the preprint which you may find &lt;a href="https://arxiv.org/pdf/1802.02943.pdf"&gt;on ArXiv&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2018&lt;/strong&gt; Updated codes on GitHub: now much more faster with the help of Rcpp! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14.02.2018&lt;/strong&gt; Added a &lt;a href="https://github.com/melnyashka/statistics_for_neuromodels"&gt;repository&lt;/a&gt; on GitHub with codes of experiments (contrast estimator + dimensionality of noise tests) &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10.02.2018&lt;/strong&gt; This page is cold and empty. In the meanwhile, you can check my &lt;a href="documents/Melnykova_Thesis.pdf"&gt;Master Thesis&lt;/a&gt; and corresponding &lt;a href="documents/Melnykova_Presentation.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</summary><content type="html">&lt;h3&gt;Latest news:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;11.04.2019&lt;/strong&gt; Freshly uploaded slides for today's talk at &lt;a href="https://www-ljk.imag.fr/Seminars/seminaires-ljk-probabilites_-_statistique.html"&gt;Seminaire du departement DATA&lt;/a&gt; are &lt;a href="documents/Brownian_dimension_testing.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25.03.2019&lt;/strong&gt; &lt;a href="https://www.mathenjeans.fr/Congres2019/Grenoble"&gt;Congrès Math.en.Jeans 2019&lt;/a&gt; will take place on campus Saint-Martin-d'Hères on 29-31 of March. Everyone (within the age limits from 4 to &lt;span class="math"&gt;\(\infty\)&lt;/span&gt;) is invited!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2019&lt;/strong&gt; PDF-version of the last lecture "Construction of the Lebesgue Integral" on the Probability Reading Group is &lt;a href="documents/lebesgue_integral.pdf"&gt;here&lt;/a&gt;. Next meeting will take place on 3d April in room 106 (Bâtiment IMAG). Don't miss! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;07.03.2019&lt;/strong&gt; thrilled to be invited to &lt;a href="https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/csaa19/index.html"&gt;CSA 2019&lt;/a&gt; in Norway! See you there on August 25-30. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11.01.2019&lt;/strong&gt; Version 2 of "Parametric inference for multidimensional hypoelliptic ergodic diffusion with full observations" is online on &lt;a href="https://hal.archives-ouvertes.fr/hal-01704010v2"&gt;HAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12.11.2018&lt;/strong&gt; Slides of my talk for a working group MathBio Grenoble are available &lt;a href="documents/MathBioTalk.pdf"&gt;here&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;04.08.2018&lt;/strong&gt; Working process on CEMRACS project "Horizontal Gene Transfer and Evolutionary rescue" can be now tracked with the help of our GitHub &lt;a href="https://github.com/melnyashka/horizontal_gene_transfer"&gt;repository&lt;/a&gt;. It includes codes for the simulation of individual-based model of bacteria population, deterministic model of a population density for large population size, and a corresponding Hamilton-Jacobi equation for small mutation probability. My collaborators are &lt;a href="https://math.univ-toulouse.fr/~sfiguero"&gt;Susely Figueroa Iglesias&lt;/a&gt; and &lt;a href="https://sites.google.com/view/samuelnordmann/"&gt;Samuel Nordmann&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;09.06.2018&lt;/strong&gt; Slides for my presentation at Journées de Statistique in Paris-Saclay are &lt;a href="documents/presentation_Jds.pdf"&gt;here&lt;/a&gt; and for DynStoch 2018 in Porto are &lt;a href="documents/presentation_Dynstoch.pdf"&gt;here&lt;/a&gt;. Both of them sum up the preprint which you may find &lt;a href="https://arxiv.org/pdf/1802.02943.pdf"&gt;on ArXiv&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2018&lt;/strong&gt; Updated codes on GitHub: now much more faster with the help of Rcpp! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14.02.2018&lt;/strong&gt; Added a &lt;a href="https://github.com/melnyashka/statistics_for_neuromodels"&gt;repository&lt;/a&gt; on GitHub with codes of experiments (contrast estimator + dimensionality of noise tests) &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10.02.2018&lt;/strong&gt; This page is cold and empty. In the meanwhile, you can check my &lt;a href="documents/Melnykova_Thesis.pdf"&gt;Master Thesis&lt;/a&gt; and corresponding &lt;a href="documents/Melnykova_Presentation.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</content></entry></feed>
