@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet/less" type="text/css" href="./theme/stylesheet/style.less">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js" type="text/javascript"></script>
+
+  <link rel="stylesheet" type="text/css" href="./theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Anna Melnykova Atom">
+
+
+    <link rel="shortcut icon" href="/images/0chan.jpg" type="image/x-icon">
+    <link rel="icon" href="/images/0chan.jpg" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#FFFACD">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#FFFACD">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Anna Melnykova" />
+<meta name="description" content="Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. 1. Thou shall give good names to ya labels! Use a convention section:introduction, subsection:model_assumption, eq:drift_approximation, table:comparison_schemes, not a mess of intro, assum1, DrAppr, CompScheme. Be sure to write informative labels: \label{eq:solution_of_sde} is better than \label{eq:s_o_s}. Violation of the rule: 5 years of article writing with no right for spellchecker. Don't overlabel your equations, if you are not sure to use them later in text. Of course, you may always leave in text the numbers only for the labeled equations by using a package showonlyref (and, by the way, show all your labels in a draft text using showkeys), but why loading a hell of packages, if you can just avoid creating a mess? For Odin's sake, do not use the abbreviations unless they are absolutely obvious! SDE for "Stochastic differential equation" is OK, NESU for "Numerical evidence of snowflakes uniqueness" is NO (you will surely forget it in one week!) Why to use the conventions: It makes so much easier to use autocompletion without scrolling through all those names... Which you will forget sooner than you believe! Keep in mind that you will probably reuse your reports, abstract, papers etc. dozens of time! ... And think about your poor comrades collaborators! ProTip: If your tex editor has no autocompletion, think about changing the editor (or adding a proper plugin, if you are using vim, emacs or something similar). 2. Don't mess with your references! When adding a new bibliography entry to the .bib-file, please use the following convention: Start the key with NameYear[Completing], where Name is the name of the FIRST author, Year - the date of publication, [Completing] (without brackets) is the supplementary info about the article which should be used - for example, second author or a topic, preferably, only if the author Name had several articles on Year. Be sure your bib entries are properly formatted - in particular, multiple authors are correctly written ("Name1, Surname1 and Name2, Surname2" - and not "Surname1 Name1, Surname2 Name2") Don't use umlauts, accents or cyrillic letters. Think of your international comrades who may using different encoding! No abbreviations in keys! Why to use the conventions: To simplify your autocompletion life! AuthorYear is just much simpler to remember than trying to write the name of the paper, all authors in line, or, what is even more horrible, the abbreviations like DS_uni_book for the book about unicorns written by J. Doe and A. Smith - either you will forget it and die from despair, or your collaborators will kill you some day. ProTip: For your information, the umlauts can be replaced by using \"o instead of ö, \'e instead of é and so on. For cyrillic letters - just don't use them! Better translate the entry in English (stating that it is written in another language), or keep a separate .bib file for your Russian\Ukrainian\Belorussian language articles. Also, consider using JabRef (see further). 3. Don't mess with the long formulas! The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide: {equation} is used for one-line equations only AND group of equations, referenced like one (with the environment {gathered} or "{aligned}* put inside) {multline} is used for ONE equation, splitted on several lines, with cascade-style alignment {gather} is used for centering a GROUP of equations (with separate label for EACH equation). Environment {gathered} is used inside an environment {equation} and does exactly the same job as {gather}, but using it you will allocate ONE label to the group. {align} (and, respectively, {aligned}) allows a custom alignment for multiline equations (or group of equations). If you want to write a system of equations\ineqalities etc. - consider using {array}. 4. Play well with the others! When collaborating, don't delete anything you have not written yourself. If you feel it is absolutely necessary to delete --- put the passage in comment (either environment "comment" or \iffalse passage to delete \fi) with, if possible, a remark, why do you think it is necessary to get rid of your comrades work. You may also consider using different colors for redacting the text to make it obvious who has changed what. ProTip You may also have a look on a brilliant package changes. First, it gives you a possibility to track your own changes in the document (without endlessly multiplying the copies of the document). But what is more important, it gives you quite a powerful tool to make a collaboration effective - be sure to check this manual. 5. Life-changing magic of using JabRef. It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. JabRef is free, cross-platform and open source (consider a donation!)" />
+<meta name="keywords" content="">
+<meta property="og:site_name" content="Anna Melnykova"/>
+<meta property="og:title" content="5 circles of LaTeX hell"/>
+<meta property="og:description" content="Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. 1. Thou shall give good names to ya labels! Use a convention section:introduction, subsection:model_assumption, eq:drift_approximation, table:comparison_schemes, not a mess of intro, assum1, DrAppr, CompScheme. Be sure to write informative labels: \label{eq:solution_of_sde} is better than \label{eq:s_o_s}. Violation of the rule: 5 years of article writing with no right for spellchecker. Don't overlabel your equations, if you are not sure to use them later in text. Of course, you may always leave in text the numbers only for the labeled equations by using a package showonlyref (and, by the way, show all your labels in a draft text using showkeys), but why loading a hell of packages, if you can just avoid creating a mess? For Odin's sake, do not use the abbreviations unless they are absolutely obvious! SDE for "Stochastic differential equation" is OK, NESU for "Numerical evidence of snowflakes uniqueness" is NO (you will surely forget it in one week!) Why to use the conventions: It makes so much easier to use autocompletion without scrolling through all those names... Which you will forget sooner than you believe! Keep in mind that you will probably reuse your reports, abstract, papers etc. dozens of time! ... And think about your poor comrades collaborators! ProTip: If your tex editor has no autocompletion, think about changing the editor (or adding a proper plugin, if you are using vim, emacs or something similar). 2. Don't mess with your references! When adding a new bibliography entry to the .bib-file, please use the following convention: Start the key with NameYear[Completing], where Name is the name of the FIRST author, Year - the date of publication, [Completing] (without brackets) is the supplementary info about the article which should be used - for example, second author or a topic, preferably, only if the author Name had several articles on Year. Be sure your bib entries are properly formatted - in particular, multiple authors are correctly written ("Name1, Surname1 and Name2, Surname2" - and not "Surname1 Name1, Surname2 Name2") Don't use umlauts, accents or cyrillic letters. Think of your international comrades who may using different encoding! No abbreviations in keys! Why to use the conventions: To simplify your autocompletion life! AuthorYear is just much simpler to remember than trying to write the name of the paper, all authors in line, or, what is even more horrible, the abbreviations like DS_uni_book for the book about unicorns written by J. Doe and A. Smith - either you will forget it and die from despair, or your collaborators will kill you some day. ProTip: For your information, the umlauts can be replaced by using \"o instead of ö, \'e instead of é and so on. For cyrillic letters - just don't use them! Better translate the entry in English (stating that it is written in another language), or keep a separate .bib file for your Russian\Ukrainian\Belorussian language articles. Also, consider using JabRef (see further). 3. Don't mess with the long formulas! The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide: {equation} is used for one-line equations only AND group of equations, referenced like one (with the environment {gathered} or "{aligned}* put inside) {multline} is used for ONE equation, splitted on several lines, with cascade-style alignment {gather} is used for centering a GROUP of equations (with separate label for EACH equation). Environment {gathered} is used inside an environment {equation} and does exactly the same job as {gather}, but using it you will allocate ONE label to the group. {align} (and, respectively, {aligned}) allows a custom alignment for multiline equations (or group of equations). If you want to write a system of equations\ineqalities etc. - consider using {array}. 4. Play well with the others! When collaborating, don't delete anything you have not written yourself. If you feel it is absolutely necessary to delete --- put the passage in comment (either environment "comment" or \iffalse passage to delete \fi) with, if possible, a remark, why do you think it is necessary to get rid of your comrades work. You may also consider using different colors for redacting the text to make it obvious who has changed what. ProTip You may also have a look on a brilliant package changes. First, it gives you a possibility to track your own changes in the document (without endlessly multiplying the copies of the document). But what is more important, it gives you quite a powerful tool to make a collaboration effective - be sure to check this manual. 5. Life-changing magic of using JabRef. It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. JabRef is free, cross-platform and open source (consider a donation!)"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./5-circles-of-latex-hell.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2019-01-12 00:00:00+01:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="./author/anna-melnykova.html">
+<meta property="article:section" content="misc"/>
+<meta property="og:image" content="/images/me_snow.jpg">
+
+  <title>Anna Melnykova &ndash; 5 circles of LaTeX hell</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href=".">
+        <img src="/images/me_snow.jpg" alt="Anna Melnykova" title="Anna Melnykova">
+      </a>
+      <h1><a href=".">Anna Melnykova</a></h1>
+
+<p>PhD student at University of Cergy-Pontoise</p>
+      <nav>
+        <ul class="list">
+
+          <li><a href="/cv.html">Curriculum Vitae</a></li>
+          <li><a href="/research.html">Research</a></li>
+          <li><a href="/teaching.html">Teaching</a></li>
+          <li><a href="/random.html">random</a></li>
+          <li><a href="/contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-github" href="https://github.com/melnyashka" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-linkedin" href="https://linkedin.com/in/anna-melnykova-752a04171" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+    <h1 id="5-circles-of-latex-hell">5 circles of LaTeX hell</h1>
+    <p>
+    </p>
+  </header>
+
+
+  <div>
+    <p>Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. </p>
+<p>I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. </p>
+<h3>1. Thou shall give good names to ya labels!</h3>
+<ul>
+<li>Use a convention <em>section:introduction</em>, <em>subsection:model_assumption</em>, <em>eq:drift_approximation</em>, <em>table:comparison_schemes</em>, not a mess of <em>intro</em>, <em>assum1</em>, <em>DrAppr</em>, <em>CompScheme</em>. </li>
+<li>Be sure to write informative labels: \label{eq:solution_of_sde} is better than \label{eq:s_o_s}. Violation of the rule: 5 years of article writing with no right for spellchecker. </li>
+<li>Don't overlabel your equations, if you are not sure to use them later in text. Of course, you may always leave in text the numbers only for the labeled equations by using a package <strong>showonlyref</strong> (and, by the way, show all your labels in a draft text using <strong>showkeys</strong>), but why loading a hell of packages, if you can just avoid creating a mess? </li>
+<li><strong>For Odin's sake, do not use the abbreviations unless they are absolutely obvious!</strong> SDE for "Stochastic differential equation" is OK, NESU for "Numerical evidence of snowflakes uniqueness" is NO (you will surely forget it in one week!)</li>
+</ul>
+<p>Why to use the conventions:</p>
+<ul>
+<li>It makes so much easier to use autocompletion without scrolling through all those names...</li>
+<li>Which you will forget sooner than you believe! Keep in mind that you will probably reuse your reports, abstract, papers etc. dozens of time!</li>
+<li>... And think about your poor comrades collaborators! </li>
+</ul>
+<p><strong>ProTip</strong>: If your tex editor has no autocompletion, think about changing the editor (or adding a proper plugin, if you are using <em>vim</em>, <em>emacs</em> or something similar). </p>
+<h3>2. Don't mess with your references!</h3>
+<p>When adding a new bibliography entry to the .bib-file, please use the following convention: </p>
+<ul>
+<li>Start the key with <strong>NameYear[Completing]</strong>, where Name is the name of the FIRST author, Year - the date of publication, [Completing] (without brackets) is the supplementary info about the article which should be used - for example, second author or a topic, preferably, only if the author Name had several articles on Year. </li>
+<li>Be sure your bib entries are properly formatted - in particular, multiple authors are correctly written ("<em>Name1, Surname1 and Name2, Surname2</em>" - and not "<em>Surname1 Name1, Surname2 Name2</em>")</li>
+<li>Don't use umlauts, accents or cyrillic letters. Think of your international comrades who may using different encoding! </li>
+<li><strong>No abbreviations in keys!</strong></li>
+</ul>
+<p>Why to use the conventions:</p>
+<ul>
+<li>To simplify your autocompletion life! AuthorYear is just much simpler to remember than trying to write the name of the paper, all authors in line, or, what is even more horrible, the abbreviations like DS_uni_book for the book about unicorns written by J. Doe and A. Smith - either you will forget it and die from despair, or your collaborators will kill you some day. </li>
+</ul>
+<p><strong>ProTip:</strong> For your information, the umlauts can be replaced by using \"o instead of ö, \'e instead of é and so on. For cyrillic letters - just don't use them! Better translate the entry in English (stating that it is written in another language), or keep a separate .bib file for your Russian\Ukrainian\Belorussian language articles. Also, consider using JabRef (see further).</p>
+<h3>3. Don't mess with the long formulas!</h3>
+<p>The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:</p>
+<ul>
+<li><em>{equation}</em> is used for one-line equations only AND group of equations, referenced like one (with the environment <em>{gathered}</em> or "{aligned}* put inside)</li>
+<li><em>{multline}</em> is used for ONE equation, splitted on several lines, with cascade-style alignment</li>
+<li><em>{gather}</em> is used for centering a GROUP of equations (with separate label for EACH equation). Environment <em>{gathered}</em> is used inside an environment <em>{equation}</em> and does exactly the same job as <em>{gather}</em>, but using it you will allocate ONE label to the group.</li>
+<li><em>{align}</em> (and, respectively, <em>{aligned}</em>) allows a custom alignment for multiline equations (or group of equations). </li>
+<li>If you want to write a system of equations\ineqalities etc. - consider using <em>{array}</em>. </li>
+</ul>
+<h3>4. Play well with the others!</h3>
+<ul>
+<li>When collaborating, don't delete anything you have not written yourself. If you feel it is absolutely necessary to delete ---  put the passage in comment (either environment "comment" or \iffalse <em>passage to delete</em> \fi) with, if possible, a remark, why do you think it is necessary to get rid of your comrades work. </li>
+<li>You may also consider using different colors for redacting the text to make it obvious who has changed what. </li>
+</ul>
+<p><strong>ProTip</strong> You may also have a look on a brilliant package <strong>changes</strong>. First, it gives you a possibility to track your own changes in the document (without endlessly multiplying the copies of the document). But what is more important, it gives you quite a powerful tool to make a collaboration effective - be sure to check <a href="http://changes.sourceforge.net/">this manual</a>. </p>
+<h3>5. Life-changing magic of using JabRef.</h3>
+<ul>
+<li>It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. </li>
+<li>It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. </li>
+<li>Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. </li>
+<li><a href="http://jabref.org">JabRef</a> is free, cross-platform and open source (consider a donation!)</li>
+</ul>
+  </div>
+  <div class="tag-cloud">
+    <p>
+    </p>
+  </div>
+
+
+
+
+</article>
+
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " Anna Melnykova ",
+  "url" : ".",
+  "image": "/images/me_snow.jpg",
+  "description": "Statistics for stochastic processes, music and procrastination "
+}
+</script>
+</body>
+</html>

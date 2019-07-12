@@ -80,59 +80,65 @@
 
 <article>
   <header>
-    <h2><a href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">9 circles of LaTeX hell. Rookie edition.</a></h2>
+    <h2><a href="../5-circles-of-latex-hell.html#5-circles-of-latex-hell">5 circles of LaTeX hell</a></h2>
     <p>
 
     </p>
   </header>
   <div>
-      <h3>1. Messing with labels</h3>
-<p>If I could give a younger version of myself a single advice on the LaTeX, it would be "Thou shall give good names to your labels, for you shall permanently reuse your documents". By good name I mean something like <em>section:introduction</em>, <em>subsection:model_assumption</em>, <em>eq:drift_approximation</em>, <em>table:comparison_schemes</em>, not a mess of <em>intro</em>, <em>assum1</em>, <em>DrAppr</em>, <em>CompScheme</em>. You should do it for two reasons:</p>
+      <p>Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. </p>
+<p>I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. </p>
+<h3>1. Thou shall give good names to ya labels!</h3>
 <ul>
-<li>Starting the name of the label from the type (section, subsection, equation, figure) is a good idea, because it makes so much easier to use autocompletion without scrolling through all those names...</li>
-<li>Which you will forget sooner than you believe! Keep in mind that you will reuse most of your reports dozens of time, so save your time</li>
+<li>Use a convention <em>section:introduction</em>, <em>subsection:model_assumption</em>, <em>eq:drift_approximation</em>, <em>table:comparison_schemes</em>, not a mess of <em>intro</em>, <em>assum1</em>, <em>DrAppr</em>, <em>CompScheme</em>. </li>
+<li>Be sure to write informative labels: \label{eq:solution_of_sde} is better than \label{eq:s_o_s}. Violation of the rule: 5 years of article writing with no right for spellchecker. </li>
+<li>Don't overlabel your equations, if you are not sure to use them later in text. Of course, you may always leave in text the numbers only for the labeled equations by using a package <strong>showonlyref</strong> (and, by the way, show all your labels in a draft text using <strong>showkeys</strong>), but why loading a hell of packages, if you can just avoid creating a mess? </li>
+<li><strong>For Odin's sake, do not use the abbreviations unless they are absolutely obvious!</strong> SDE for "Stochastic differential equation" is OK, NESU for "Numerical evidence of snowflakes uniqueness" is NO (you will surely forget it in one week!)</li>
 </ul>
-<p>Few packages which will make your life easier:</p>
+<p>Why to use the conventions:</p>
 <ul>
-<li>showonlyref</li>
+<li>It makes so much easier to use autocompletion without scrolling through all those names...</li>
+<li>Which you will forget sooner than you believe! Keep in mind that you will probably reuse your reports, abstract, papers etc. dozens of time!</li>
+<li>... And think about your poor comrades collaborators! </li>
 </ul>
-<h3>2. Messing with references</h3>
-<p>Reference properly </p>
-<h3>3. Messing with long formulas</h3>
-<p>Know the difference between multline, align, grouped etc. </p>
+<p><strong>ProTip</strong>: If your tex editor has no autocompletion, think about changing the editor (or adding a proper plugin, if you are using <em>vim</em>, <em>emacs</em> or something similar). </p>
+<h3>2. Don't mess with your references!</h3>
+<p>When adding a new bibliography entry to the .bib-file, please use the following convention: </p>
+<ul>
+<li>Start the key with <strong>NameYear[Completing]</strong>, where Name is the name of the FIRST author, Year - the date of publication, [Completing] (without brackets) is the supplementary info about the article which should be used - for example, second author or a topic, preferably, only if the author Name had several articles on Year. </li>
+<li>Be sure your bib entries are properly formatted - in particular, multiple authors are correctly written ("<em>Name1, Surname1 and Name2, Surname2</em>" - and not "<em>Surname1 Name1, Surname2 Name2</em>")</li>
+<li>Don't use umlauts, accents or cyrillic letters. Think of your international comrades who may using different encoding! </li>
+<li><strong>No abbreviations in keys!</strong></li>
+</ul>
+<p>Why to use the conventions:</p>
+<ul>
+<li>To simplify your autocompletion life! AuthorYear is just much simpler to remember than trying to write the name of the paper, all authors in line, or, what is even more horrible, the abbreviations like DS_uni_book for the book about unicorns written by J. Doe and A. Smith - either you will forget it and die from despair, or your collaborators will kill you some day. </li>
+</ul>
+<p><strong>ProTip:</strong> For your information, the umlauts can be replaced by using \"o instead of ö, \'e instead of é and so on. For cyrillic letters - just don't use them! Better translate the entry in English (stating that it is written in another language), or keep a separate .bib file for your Russian\Ukrainian\Belorussian language articles. Also, consider using JabRef (see further).</p>
+<h3>3. Don't mess with the long formulas!</h3>
 <p>The beautiful world of equation-like environments in LaTeX remains mostly unexplored. Negligence leads to undesirable - and unreadable! - consequences, especially if you are dealing with half-page long formulas. Here is a short guide:</p>
 <ul>
-<li><em>{equation}</em> is used for one-line equations only</li>
+<li><em>{equation}</em> is used for one-line equations only AND group of equations, referenced like one (with the environment <em>{gathered}</em> or "{aligned}* put inside)</li>
 <li><em>{multline}</em> is used for ONE equation, splitted on several lines, with cascade-style alignment</li>
-<li><em>{gather}</em> is used for centering a GROUP of equations (with separate label for EACH equation). Environment <em>{gathered}</em> is used inside an environment <em>{equation}</em> and does the same job as <em>{gather}</em>, but allocating ONE label to the group</li>
-<li><em>{align}</em> (and, respectively, <em>{aligned}</em>) allows a custom alignment for  multiline equations (or group of equations). </li>
+<li><em>{gather}</em> is used for centering a GROUP of equations (with separate label for EACH equation). Environment <em>{gathered}</em> is used inside an environment <em>{equation}</em> and does exactly the same job as <em>{gather}</em>, but using it you will allocate ONE label to the group.</li>
+<li><em>{align}</em> (and, respectively, <em>{aligned}</em>) allows a custom alignment for multiline equations (or group of equations). </li>
+<li>If you want to write a system of equations\ineqalities etc. - consider using <em>{array}</em>. </li>
 </ul>
-<h3>4. Messing with bibliography</h3>
-<p>Alternative title would be a "life-changing magic of using JabRef". Let me convince you why JabRef is adorable (if you are not using it already):  </p>
+<h3>4. Play well with the others!</h3>
+<ul>
+<li>When collaborating, don't delete anything you have not written yourself. If you feel it is absolutely necessary to delete ---  put the passage in comment (either environment "comment" or \iffalse <em>passage to delete</em> \fi) with, if possible, a remark, why do you think it is necessary to get rid of your comrades work. </li>
+<li>You may also consider using different colors for redacting the text to make it obvious who has changed what. </li>
+</ul>
+<p><strong>ProTip</strong> You may also have a look on a brilliant package <strong>changes</strong>. First, it gives you a possibility to track your own changes in the document (without endlessly multiplying the copies of the document). But what is more important, it gives you quite a powerful tool to make a collaboration effective - be sure to check <a href="http://changes.sourceforge.net/">this manual</a>. </p>
+<h3>5. Life-changing magic of using JabRef.</h3>
 <ul>
 <li>It gives you several powerful search-engines (Springer, GoogleScholar etc.) which allow you to add a BibTex reference to your bibliography without lurking through the websites in vain to find the copy-pasteable text. </li>
 <li>It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. </li>
 <li>Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. </li>
-<li>JabRef is free, cross-platform and open source (consider a donation!)</li>
-</ul>
-<h3>5. Not tracking changes</h3>
-<p>latexdiff, vimdiff, changes</p>
-<p>Make copies</p>
-<h3>6. Not playing well with the others</h3>
-<p>How to collaborate and track changes</p>
-<h3>7. Messing with code and algorithms</h3>
-<p>Applies mostly to working reports. </p>
-<h3>8. Not fancifying</h3>
-<p>LaTeX is powerful! Why not using it properly?</p>
-<h3>9. Loosing track of packages</h3>
-<p>It should be obvious, but still: it is not a good idea to copy-paste the same once-and-for-all adjusted header of your TeX document in all the documents, with all the packages which you are have used only once or twice in your life. Try to keep it simple, and you will avoid:</p>
-<ul>
-<li>increased compilation time</li>
-<li>compilation problems when using some custom template (for example, journal or conference template)  </li>
-<li>any package manag?</li>
+<li><a href="http://jabref.org">JabRef</a> is free, cross-platform and open source (consider a donation!)</li>
 </ul>
       <br>
-      <a class="btn" href="../9-circles-of-latex-hell.html#9-circles-of-latex-hell">    Continue reading
+      <a class="btn" href="../5-circles-of-latex-hell.html#5-circles-of-latex-hell">    Continue reading
 </a>
   </div>
   <hr />
@@ -483,9 +489,13 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
     </p>
   </header>
   <div>
-      <p>Here I will post all kinds of informal things. For example, you can check my small travel report about my trip to <a href="chernobyl.html">Chernobyl</a> (August 2015). </p>
-<p>And <a href="books.html">here</a> you may find a list of books I find interesting. </p>
-<p>todo: rookie guides</p>
+      <p>Welcome to the mini-hub of all kinds of non-academical things I find interesting!  </p>
+<p>To begin with, you can check a small travel report about my trip to <a href="chernobyl.html">Chernobyl</a> (August 2015). </p>
+<p><a href="books.html">Here</a> I keep a (non-exclusive) list of books I like. </p>
+<p>Also, recently I wrote a <a href="5-circles-of-latex-hell.html">small manual on good LaTeX habits</a> which I try to follow... and would be glad to have followed it from the very beginning of my LaTeX experiments, since it would save me time and nerves!</p>
+<p>As a bonus, I proudly share with you the photos of my two cats: Rudy (residing with me in France) and Morpheus (taking care of my family in Kyiv). </p>
+<p><img src = "images/rudy.jpg" height=500px> 
+<img src = "images/morph.jpg" height=500px></p>
       <br>
       <a class="btn" href="../random.html#random">    Continue reading
 </a>
