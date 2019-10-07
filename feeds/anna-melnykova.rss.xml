@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Anna Melnykova - Anna Melnykova</title><link>/</link><description>PhD student at University of Cergy-Pontoise</description><lastBuildDate>Mon, 28 Jan 2019 00:00:00 +0100</lastBuildDate><item><title>5 circles of LaTeX hell</title><link>/5-circles-of-latex-hell.html</link><description>&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
+<rss version="2.0"><channel><title>Anna Melnykova - Anna Melnykova</title><link>/</link><description>PhD student at University of Cergy-Pontoise</description><lastBuildDate>Mon, 07 Jan 2019 00:00:00 +0100</lastBuildDate><item><title>5 circles of LaTeX hell</title><link>/5-circles-of-latex-hell.html</link><description>&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
 &lt;p&gt;I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. &lt;/p&gt;
 &lt;h3&gt;1. Thou shall give good names to ya labels!&lt;/h3&gt;
 &lt;ul&gt;
@@ -49,7 +49,170 @@
 &lt;li&gt;It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. &lt;/li&gt;
 &lt;li&gt;Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. &lt;/li&gt;
 &lt;li&gt;&lt;a href="http://jabref.org"&gt;JabRef&lt;/a&gt; is free, cross-platform and open source (consider a donation!)&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Mon, 28 Jan 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2019-01-28:/5-circles-of-latex-hell.html</guid></item><item><title>Books</title><link>/books.html</link><description>&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Mon, 07 Jan 2019 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2019-01-07:/5-circles-of-latex-hell.html</guid></item><item><title>404 - not found</title><link>/404-not-found.html</link><description>&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
+&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/404-not-found.html</guid></item><item><title>About me</title><link>/about.html</link><description>&lt;p&gt;I was born on 28 February 1994 in Kiev (Ukraine). Long story short (check &lt;a href="cv.html"&gt;CV&lt;/a&gt;), now I am doing my PhD between two research labs: AGM (UMR CNRS 8088)  and LJK (UMR CNRS 5224), supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at  University of Cergy-Pontoise) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). &lt;/p&gt;
+&lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
+&lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
+Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;a href="https://univ-grenoble-alpes.fr"&gt;&lt;img src="/images/logo-uga.png" height="145"&gt;&lt;/a&gt;
+&lt;a href="https://u-cergy.fr"&gt;&lt;img src = "/images/UCP_logo_violet.jpg" height="145"&gt;&lt;/a&gt;
+&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; 
+&lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
+&lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;font size = "1"&gt; Last updated on October 2019. &lt;/font&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/about.html</guid></item><item><title>Contacts</title><link>/contacts.html</link><description>&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
+&lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
+&lt;p&gt;Off. 132&lt;br&gt;
+&lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
+&lt;a href="https://batiment.imag.fr/en/contact-addresses-access" title="Acess to IMAG building"&gt;Bâtiment MAG&lt;/a&gt;&lt;br&gt;
+700 Avenue Centrale &lt;br&gt;
+38401 Saint-Martin-d'Hères&lt;br&gt;
+France&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/contacts.html</guid></item><item><title>Explain me like I'm 5: Basics of probability theory</title><link>/proba5.html</link><description>&lt;h4&gt;Probability space&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
+&lt;strong&gt;Natural filtration&lt;/strong&gt; - contains all the information about the given process, and only this information.&lt;br&gt;
+Process is &lt;strong&gt;adapted to filtration&lt;/strong&gt; if the information about the state of the given process at time &lt;span class="math"&gt;\(t\)&lt;/span&gt; contains at &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra &lt;span class="math"&gt;\(\mathcal{F}\)&lt;/span&gt;. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Q: Why do we need a &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra when talking about stochastic processes?&lt;/strong&gt; 
+A: Just to restrict ourselves to the case when all the events we are talking about can be assigned a probability measure&lt;/p&gt;
+&lt;h4&gt;Martingales: local martingales, sub- and supermartingales, semimartingales,&lt;/h4&gt;
+&lt;h4&gt;Markov property&lt;/h4&gt;
+&lt;h4&gt;Solutions of SDEs&lt;/h4&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/proba5.html</guid></item><item><title>Random</title><link>/random.html</link><description>&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
+&lt;p&gt;To begin with, you can check a small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015). &lt;/p&gt;
+&lt;p&gt;&lt;a href="books.html"&gt;Here&lt;/a&gt; I keep a (non-exclusive) list of books I like. &lt;/p&gt;
+&lt;p&gt;Also, recently I wrote a &lt;a href="5-circles-of-latex-hell.html"&gt;small manual on good LaTeX habits&lt;/a&gt; which I try to follow... and would be glad to have followed it from the very beginning of my LaTeX experiments, since it would save me time and nerves!&lt;/p&gt;
+&lt;p&gt;As a bonus, I proudly share with you the photos of my two cats: Rudy (residing with me in France) and Morpheus (taking care of my family in Kyiv). &lt;/p&gt;
+&lt;p&gt;&lt;img src = "images/rudy.jpg" height=500px&gt; 
+&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/random.html</guid></item><item><title>Latest news</title><link>/research.html</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; Between 21.10 and 01.11 I will stay at &lt;a href="https://www.math.ku.dk/english"&gt;University of Copenhagen&lt;/a&gt; to work with &lt;a href="http://web.math.ku.dk/~susanne"&gt;Susanne Ditlevsen&lt;/a&gt;.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; There is a new &lt;a href="https://github.com/melnyashka/Hawkes_process_with_Erlang_kernels"&gt;GitHub repository&lt;/a&gt; with (drafty) simulations of Hawkes process with Erlang kernels and its diffusion approximation. Author of codes for the point process: &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt;.  &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;07.06.2019&lt;/strong&gt; Me and &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; have received the "Research in Pairs" grant from &lt;a href="https://www.mfo.de"&gt;Oberwolfach Research Center&lt;/a&gt; for 2 weeks! Our stay is planned for January 2020. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;29.05.2019&lt;/strong&gt; Very approximative summary of the lecture on ergodicity for Probability Reading Group is &lt;a href="documents/ergodicity.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11.04.2019&lt;/strong&gt; Freshly uploaded slides for today's talk at &lt;a href="https://www-ljk.imag.fr/Seminars/seminaires-ljk-probabilites_-_statistique.html"&gt;Seminaire du departement DATA&lt;/a&gt; are &lt;a href="documents/Brownian_dimension_testing.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25.03.2019&lt;/strong&gt; &lt;a href="https://www.mathenjeans.fr/Congres2019/Grenoble"&gt;Congrès Math.en.Jeans 2019&lt;/a&gt; will take place on campus Saint-Martin-d'Hères on 29-31 of March. Everyone (within the age limits from 4 to &lt;span class="math"&gt;\(\infty\)&lt;/span&gt;) is invited!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2019&lt;/strong&gt; PDF-version of the last lecture "Construction of the Lebesgue Integral" on the Probability Reading Group is &lt;a href="documents/lebesgue_integral.pdf"&gt;here&lt;/a&gt;. Next meeting will take place on 3d April in room 106 (Bâtiment IMAG). Don't miss! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;07.03.2019&lt;/strong&gt; thrilled to be invited to &lt;a href="https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/csaa19/index.html"&gt;CSA 2019&lt;/a&gt; in Norway! See you there on August 25-30. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;11.01.2019&lt;/strong&gt; Version 2 of "Parametric inference for multidimensional hypoelliptic ergodic diffusion with full observations" is online on &lt;a href="https://hal.archives-ouvertes.fr/hal-01704010v2"&gt;HAL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12.11.2018&lt;/strong&gt; Slides of my talk for a working group MathBio Grenoble are available &lt;a href="documents/MathBioTalk.pdf"&gt;here&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;04.08.2018&lt;/strong&gt; Working process on CEMRACS project "Horizontal Gene Transfer and Evolutionary rescue" can be now tracked with the help of our GitHub &lt;a href="https://github.com/melnyashka/horizontal_gene_transfer"&gt;repository&lt;/a&gt;. It includes codes for the simulation of individual-based model of bacteria population, deterministic model of a population density for large population size, and a corresponding Hamilton-Jacobi equation for small mutation probability. My collaborators are &lt;a href="https://math.univ-toulouse.fr/~sfiguero"&gt;Susely Figueroa Iglesias&lt;/a&gt; and &lt;a href="https://sites.google.com/view/samuelnordmann/"&gt;Samuel Nordmann&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;09.06.2018&lt;/strong&gt; Slides for my presentation at Journées de Statistique in Paris-Saclay are &lt;a href="documents/presentation_Jds.pdf"&gt;here&lt;/a&gt; and for DynStoch 2018 in Porto are &lt;a href="documents/presentation_Dynstoch.pdf"&gt;here&lt;/a&gt;. Both of them sum up the preprint which you may find &lt;a href="https://arxiv.org/pdf/1802.02943.pdf"&gt;on ArXiv&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2018&lt;/strong&gt; Updated codes on GitHub: now much more faster with the help of Rcpp! &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;14.02.2018&lt;/strong&gt; Added a &lt;a href="https://github.com/melnyashka/statistics_for_neuromodels"&gt;repository&lt;/a&gt; on GitHub with codes of experiments (contrast estimator + dimensionality of noise tests) &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10.02.2018&lt;/strong&gt; This page is cold and empty. In the meanwhile, you can check my &lt;a href="documents/Melnykova_Thesis.pdf"&gt;Master Thesis&lt;/a&gt; and corresponding &lt;a href="documents/Melnykova_Presentation.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
+    var align = "center",
+        indent = "0em",
+        linebreak = "false";
+
+    if (false) {
+        align = (screen.width &lt; 768) ? "left" : align;
+        indent = (screen.width &lt; 768) ? "0em" : indent;
+        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
+    }
+
+    var mathjaxscript = document.createElement('script');
+    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
+    mathjaxscript.type = 'text/javascript';
+    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
+    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
+        "MathJax.Hub.Config({" +
+        "    config: ['MMLorHTML.js']," +
+        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
+        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
+        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
+        "    displayAlign: '"+ align +"'," +
+        "    displayIndent: '"+ indent +"'," +
+        "    showMathMenu: true," +
+        "    messageStyle: 'normal'," +
+        "    tex2jax: { " +
+        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
+        "        displayMath: [ ['$$','$$'] ]," +
+        "        processEscapes: true," +
+        "        preview: 'TeX'," +
+        "    }, " +
+        "    'HTML-CSS': { " +
+        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
+        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
+        "    }, " +
+        "}); " +
+        "if ('default' !== 'default') {" +
+            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
+                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
+                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
+                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
+                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
+                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
+            "});" +
+        "}";
+    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
+}
+&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Sun, 07 Oct 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-10-07:/research.html</guid></item><item><title>Books</title><link>/books.html</link><description>&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
 &lt;h4&gt;Old but gold&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;S. Sturluson "Younger Edda"&lt;/li&gt;
@@ -204,175 +367,14 @@
 &lt;li&gt;folk ballad "Herr Mannelig"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "Backbone Flute"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "A cloud in Trousers"&lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Fri, 28 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-09-28:/books.html</guid></item><item><title>Teaching</title><link>/teaching.html</link><description>&lt;h3&gt;2018-2019&lt;/h3&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Fri, 07 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-09-07:/books.html</guid></item><item><title>Teaching</title><link>/teaching.html</link><description>&lt;h3&gt;2018-2019&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;UFR IM2AG L3 - &lt;strong&gt;Méthodes statistiques pour la biologie&lt;/strong&gt; (TP, 36h). &lt;a href="http://chamilo.univ-grenoble-alpes.fr/courses/UESTA301/index.php"&gt;Lien vers Chamilo&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;Statistique descriptive, lois de probabilités des variables aléatoires discrètes et continues usuelles, statistiaue décisionnelle: utilisation et application sur logiciel R&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;UFR Science et Economie L2 - &lt;strong&gt;Probabilité et Statistique Inferentielles&lt;/strong&gt; (TD, 20h)  &lt;a href="https://toltex.u-ga.fr/probastat"&gt;Lien vers les supports&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Fri, 28 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-09-28:/teaching.html</guid></item><item><title>404 - not found</title><link>/404-not-found.html</link><description>&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
-&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/404-not-found.html</guid></item><item><title>About me</title><link>/about.html</link><description>&lt;p&gt;I was born on 28 February 1994 in Kiev (Ukraine). Long story short (check &lt;a href="cv.html"&gt;CV&lt;/a&gt;), now I am doing my PhD between two research labs: AGM (UMR CNRS 8088)  and LJK (UMR CNRS 5224), supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at  University of Cergy-Pontoise) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). &lt;/p&gt;
-&lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
-&lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
-Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;a href="https://univ-grenoble-alpes.fr"&gt;&lt;img src="/images/logo-uga.png" height="145"&gt;&lt;/a&gt;
-&lt;a href="https://u-cergy.fr"&gt;&lt;img src = "/images/UCP_logo_violet.jpg" height="145"&gt;&lt;/a&gt;
-&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; 
-&lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
-&lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;font size = "1"&gt; Last updated on June 2019. &lt;/font&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/about.html</guid></item><item><title>Contacts</title><link>/contacts.html</link><description>&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
-&lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
-&lt;p&gt;Off. 132&lt;br&gt;
-&lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
-&lt;a href="https://batiment.imag.fr/en/contact-addresses-access" title="Acess to IMAG building"&gt;Bâtiment MAG&lt;/a&gt;&lt;br&gt;
-700 Avenue Centrale &lt;br&gt;
-38401 Saint-Martin-d'Hères&lt;br&gt;
-France&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/contacts.html</guid></item><item><title>Explain me like I'm 5: Basics of probability theory</title><link>/proba5.html</link><description>&lt;h4&gt;Probability space&lt;/h4&gt;
-&lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
-&lt;strong&gt;Natural filtration&lt;/strong&gt; - contains all the information about the given process, and only this information.&lt;br&gt;
-Process is &lt;strong&gt;adapted to filtration&lt;/strong&gt; if the information about the state of the given process at time &lt;span class="math"&gt;\(t\)&lt;/span&gt; contains at &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra &lt;span class="math"&gt;\(\mathcal{F}\)&lt;/span&gt;. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Q: Why do we need a &lt;span class="math"&gt;\(\sigma\)&lt;/span&gt;-algebra when talking about stochastic processes?&lt;/strong&gt; 
-A: Just to restrict ourselves to the case when all the events we are talking about can be assigned a probability measure&lt;/p&gt;
-&lt;h4&gt;Martingales: local martingales, sub- and supermartingales, semimartingales,&lt;/h4&gt;
-&lt;h4&gt;Markov property&lt;/h4&gt;
-&lt;h4&gt;Solutions of SDEs&lt;/h4&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/proba5.html</guid></item><item><title>Random</title><link>/random.html</link><description>&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
-&lt;p&gt;To begin with, you can check a small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015). &lt;/p&gt;
-&lt;p&gt;&lt;a href="books.html"&gt;Here&lt;/a&gt; I keep a (non-exclusive) list of books I like. &lt;/p&gt;
-&lt;p&gt;Also, recently I wrote a &lt;a href="5-circles-of-latex-hell.html"&gt;small manual on good LaTeX habits&lt;/a&gt; which I try to follow... and would be glad to have followed it from the very beginning of my LaTeX experiments, since it would save me time and nerves!&lt;/p&gt;
-&lt;p&gt;As a bonus, I proudly share with you the photos of my two cats: Rudy (residing with me in France) and Morpheus (taking care of my family in Kyiv). &lt;/p&gt;
-&lt;p&gt;&lt;img src = "images/rudy.jpg" height=500px&gt; 
-&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/random.html</guid></item><item><title>Latest news</title><link>/research.html</link><description>&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;07.06.2019&lt;/strong&gt; Me and &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; have received the "Research in Pairs" grant from &lt;a href="https://www.mfo.de"&gt;Oberwolfach Research Center&lt;/a&gt; for 2 weeks! Our stay is planned for January 2020. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;29.05.2019&lt;/strong&gt; Very approximative summary of the lecture on ergodicity for Probability Reading Group is &lt;a href="documents/ergodicity.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;11.04.2019&lt;/strong&gt; Freshly uploaded slides for today's talk at &lt;a href="https://www-ljk.imag.fr/Seminars/seminaires-ljk-probabilites_-_statistique.html"&gt;Seminaire du departement DATA&lt;/a&gt; are &lt;a href="documents/Brownian_dimension_testing.pdf"&gt;here&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;25.03.2019&lt;/strong&gt; &lt;a href="https://www.mathenjeans.fr/Congres2019/Grenoble"&gt;Congrès Math.en.Jeans 2019&lt;/a&gt; will take place on campus Saint-Martin-d'Hères on 29-31 of March. Everyone (within the age limits from 4 to &lt;span class="math"&gt;\(\infty\)&lt;/span&gt;) is invited!&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20.03.2019&lt;/strong&gt; PDF-version of the last lecture "Construction of the Lebesgue Integral" on the Probability Reading Group is &lt;a href="documents/lebesgue_integral.pdf"&gt;here&lt;/a&gt;. Next meeting will take place on 3d April in room 106 (Bâtiment IMAG). Don't miss! &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;07.03.2019&lt;/strong&gt; thrilled to be invited to &lt;a href="https://www.mn.uio.no/math/english/research/projects/storm/events/conferences/csaa19/index.html"&gt;CSA 2019&lt;/a&gt; in Norway! See you there on August 25-30. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;11.01.2019&lt;/strong&gt; Version 2 of "Parametric inference for multidimensional hypoelliptic ergodic diffusion with full observations" is online on &lt;a href="https://hal.archives-ouvertes.fr/hal-01704010v2"&gt;HAL&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;12.11.2018&lt;/strong&gt; Slides of my talk for a working group MathBio Grenoble are available &lt;a href="documents/MathBioTalk.pdf"&gt;here&lt;/a&gt;. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;04.08.2018&lt;/strong&gt; Working process on CEMRACS project "Horizontal Gene Transfer and Evolutionary rescue" can be now tracked with the help of our GitHub &lt;a href="https://github.com/melnyashka/horizontal_gene_transfer"&gt;repository&lt;/a&gt;. It includes codes for the simulation of individual-based model of bacteria population, deterministic model of a population density for large population size, and a corresponding Hamilton-Jacobi equation for small mutation probability. My collaborators are &lt;a href="https://math.univ-toulouse.fr/~sfiguero"&gt;Susely Figueroa Iglesias&lt;/a&gt; and &lt;a href="https://sites.google.com/view/samuelnordmann/"&gt;Samuel Nordmann&lt;/a&gt;. &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;09.06.2018&lt;/strong&gt; Slides for my presentation at Journées de Statistique in Paris-Saclay are &lt;a href="documents/presentation_Jds.pdf"&gt;here&lt;/a&gt; and for DynStoch 2018 in Porto are &lt;a href="documents/presentation_Dynstoch.pdf"&gt;here&lt;/a&gt;. Both of them sum up the preprint which you may find &lt;a href="https://arxiv.org/pdf/1802.02943.pdf"&gt;on ArXiv&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20.03.2018&lt;/strong&gt; Updated codes on GitHub: now much more faster with the help of Rcpp! &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;14.02.2018&lt;/strong&gt; Added a &lt;a href="https://github.com/melnyashka/statistics_for_neuromodels"&gt;repository&lt;/a&gt; on GitHub with codes of experiments (contrast estimator + dimensionality of noise tests) &lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;10.02.2018&lt;/strong&gt; This page is cold and empty. In the meanwhile, you can check my &lt;a href="documents/Melnykova_Thesis.pdf"&gt;Master Thesis&lt;/a&gt; and corresponding &lt;a href="documents/Melnykova_Presentation.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;script type="text/javascript"&gt;if (!document.getElementById('mathjaxscript_pelican_#%@#$@#')) {
-    var align = "center",
-        indent = "0em",
-        linebreak = "false";
-
-    if (false) {
-        align = (screen.width &lt; 768) ? "left" : align;
-        indent = (screen.width &lt; 768) ? "0em" : indent;
-        linebreak = (screen.width &lt; 768) ? 'true' : linebreak;
-    }
-
-    var mathjaxscript = document.createElement('script');
-    mathjaxscript.id = 'mathjaxscript_pelican_#%@#$@#';
-    mathjaxscript.type = 'text/javascript';
-    mathjaxscript.src = 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML';
-    mathjaxscript[(window.opera ? "innerHTML" : "text")] =
-        "MathJax.Hub.Config({" +
-        "    config: ['MMLorHTML.js']," +
-        "    TeX: { extensions: ['AMSmath.js','AMSsymbols.js','noErrors.js','noUndefined.js'], equationNumbers: { autoNumber: 'AMS' } }," +
-        "    jax: ['input/TeX','input/MathML','output/HTML-CSS']," +
-        "    extensions: ['tex2jax.js','mml2jax.js','MathMenu.js','MathZoom.js']," +
-        "    displayAlign: '"+ align +"'," +
-        "    displayIndent: '"+ indent +"'," +
-        "    showMathMenu: true," +
-        "    messageStyle: 'normal'," +
-        "    tex2jax: { " +
-        "        inlineMath: [ ['\\\\(','\\\\)'] ], " +
-        "        displayMath: [ ['$$','$$'] ]," +
-        "        processEscapes: true," +
-        "        preview: 'TeX'," +
-        "    }, " +
-        "    'HTML-CSS': { " +
-        "        styles: { '.MathJax_Display, .MathJax .mo, .MathJax .mi, .MathJax .mn': {color: 'inherit ! important'} }," +
-        "        linebreaks: { automatic: "+ linebreak +", width: '90% container' }," +
-        "    }, " +
-        "}); " +
-        "if ('default' !== 'default') {" +
-            "MathJax.Hub.Register.StartupHook('HTML-CSS Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax['HTML-CSS'].FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-            "MathJax.Hub.Register.StartupHook('SVG Jax Ready',function () {" +
-                "var VARIANT = MathJax.OutputJax.SVG.FONTDATA.VARIANT;" +
-                "VARIANT['normal'].fonts.unshift('MathJax_default');" +
-                "VARIANT['bold'].fonts.unshift('MathJax_default-bold');" +
-                "VARIANT['italic'].fonts.unshift('MathJax_default-italic');" +
-                "VARIANT['-tex-mathit'].fonts.unshift('MathJax_default-italic');" +
-            "});" +
-        "}";
-    (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
-}
-&lt;/script&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 28 Aug 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-08-28:/research.html</guid></item><item><title>CV</title><link>/cv.html</link><description>&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Fri, 07 Sep 2018 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2018-09-07:/teaching.html</guid></item><item><title>CV</title><link>/cv.html</link><description>&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -429,7 +431,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
              border="0"
              type="text/html"
              standby=" Page is loading... "&gt;
-             &lt;/object&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Wed, 28 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2018-02-28:/cv.html</guid></item><item><title>Trip to Chernobyl</title><link>/chernobyl.html</link><description>&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
+             &lt;/object&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Wed, 07 Feb 2018 00:00:00 +0100</pubDate><guid isPermaLink="false">tag:None,2018-02-07:/cv.html</guid></item><item><title>Trip to Chernobyl</title><link>/chernobyl.html</link><description>&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So guys, yesterday I was in The Zone. And I feel like writing a small step-by-step report about that.&lt;/p&gt;
 &lt;h4&gt;Zalissia&lt;/h4&gt;
 &lt;p&gt;Well, almost 90% of time spent in The Zone was spent, actually, in a bus driving through cheerful green forests. So, when we stopped at the Zalissia village, 90% of time we were walking through the forest, as the nature seems to have taken this land by force. Whatever remained from people are some fences, half-destroyed huts with rotten roofs and dense wine smell from a thick carpet of ripe apples crunching under your feet. You are even kind of allowed to eat them, but in fact you are not, just in the case. Despite the fact that Zalissa is located in the alienation zone, it was almost uncontaminated during the accident, and people were asked to leave this place rather because of some political reasons, not because it was absolutely necessary. &lt;/p&gt;
@@ -448,4 +450,4 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;p&gt;Walking through the streets of Pripyat is pretty eerie. Like, you just walk through the forest, from time to time you encounter grey buildings with empty windows, and the guide explains: ok, so now we are on the main street, and that small grove is the main football field of the town, this place is really liked by the wild boars by the way, and this small trail is in fact also a pretty important street, folks, but it was just burried under the fallen leaves, so now there half meters of ground from each side so it looks like a trail, while in fact it's not. And there is no feeling of abandonment, everything is so green and festive, and smells so fresh, there are no advertisements, and no people..... just a perfect place to live. &lt;/p&gt;
 &lt;p&gt;And what about Chernobyl - it looks like any other small town in Ukraine, but is much cleaner and there are no children. Anyway it looks nice, the streets are clean, the buildings are fresh and neat, there is no garbage. There are several dormitories for workers, around 6 canteens, some cars on the road, but there are no new residental buildings, so it is the only difference between Chernobyl and some town like Bucha or Irpin in vicinity of Kiev. 
 So, in general there are much more things to tell you about, and probably I would even like to spend several days in Zone next time, but well... there will be another story. &lt;/p&gt;
-&lt;p&gt;&lt;em&gt;What I didn't mention in the old post however, is that we were also allowed to climb and enter the buildings in Pripyat, and I have few cute photos from there - because my personal page was read also by grandma, but I decided to leave it just like this.&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Thu, 28 Aug 2008 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2008-08-28:/chernobyl.html</guid></item></channel></rss>
+&lt;p&gt;&lt;em&gt;What I didn't mention in the old post however, is that we were also allowed to climb and enter the buildings in Pripyat, and I have few cute photos from there - because my personal page was read also by grandma, but I decided to leave it just like this.&lt;/em&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Anna Melnykova</dc:creator><pubDate>Tue, 07 Oct 2008 00:00:00 +0200</pubDate><guid isPermaLink="false">tag:None,2008-10-07:/chernobyl.html</guid></item></channel></rss>
