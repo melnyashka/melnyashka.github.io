@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anna Melnykova</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-01-24T00:00:00+01:00</updated><entry><title>5 circles of LaTeX hell</title><link href="/5-circles-of-latex-hell.html" rel="alternate"></link><published>2019-01-24T00:00:00+01:00</published><updated>2019-01-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2019-01-24:/5-circles-of-latex-hell.html</id><summary type="html">&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anna Melnykova</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-01-06T00:00:00+01:00</updated><entry><title>5 circles of LaTeX hell</title><link href="/5-circles-of-latex-hell.html" rel="alternate"></link><published>2019-01-06T00:00:00+01:00</published><updated>2019-01-06T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2019-01-06:/5-circles-of-latex-hell.html</id><summary type="html">&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
 &lt;p&gt;I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. &lt;/p&gt;
 &lt;h3&gt;1. Thou shall give good names to ya labels!&lt;/h3&gt;
 &lt;ul&gt;
@@ -99,7 +99,7 @@
 &lt;li&gt;It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. &lt;/li&gt;
 &lt;li&gt;Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. &lt;/li&gt;
 &lt;li&gt;&lt;a href="http://jabref.org"&gt;JabRef&lt;/a&gt; is free, cross-platform and open source (consider a donation!)&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Books</title><link href="/books.html" rel="alternate"></link><published>2018-09-24T00:00:00+02:00</published><updated>2018-09-24T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-24:/books.html</id><summary type="html">&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
+&lt;/ul&gt;</content></entry><entry><title>Books</title><link href="/books.html" rel="alternate"></link><published>2018-09-06T00:00:00+02:00</published><updated>2018-09-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-06:/books.html</id><summary type="html">&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
 &lt;h4&gt;Old but gold&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;S. Sturluson "Younger Edda"&lt;/li&gt;
@@ -155,11 +155,14 @@
 &lt;li&gt;E.M. Remarque (any book except for "Im Westen nichts Neues")&lt;/li&gt;
 &lt;li&gt;F. Kafka "Die Verwandlung"&lt;/li&gt;
 &lt;li&gt;K. Hamsen "Hunger"&lt;/li&gt;
+&lt;li&gt;A. Spiegelmann "Maus"&lt;/li&gt;
+&lt;li&gt;M. Artwood "The Handmaid's Tale"&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... so you just want everyone to disappear&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;A. Weisman "The World Without Us" &lt;em&gt;(non-fiction)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;C.H. Kearny "Nuclear War Survival Skills" &lt;em&gt;(civil defense, just in the case you don't want to disappear yourself)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;J. Krakauer "Into the Wild" &lt;em&gt;(and that's what happens if you decide to disappear anyway)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... but you are too lazy to do something about it&lt;/h5&gt;
 &lt;ul&gt;
@@ -176,8 +179,11 @@
 &lt;ul&gt;
 &lt;li&gt;Yeonmi Park "In order to live" &lt;em&gt;(on escape from North Korea)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Christiane F. "Wir Kinder vom Bahnhof Zoo" &lt;em&gt;(on sad life in West Berlin in 70th, drugs, rock-n-roll and prostitution)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;P. Kalanithi "When Breath Becomes Air" &lt;em&gt;(autobiographical book about a metastatic lung cancer)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;V. Malarek "The Natashas" &lt;em&gt;(human trafficking issues)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;P. Kalanithi "When Breath Becomes Air" &lt;em&gt;(on the life with a metastatic lung cancer)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;O. Rolin "Le Météorologe" &lt;em&gt;(On the life of A.F. Wangenheim)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;F. Aubenas "Le Quai de Ouistreham" (on SMIC workers in France)&lt;/li&gt;
+&lt;li&gt;E. Saks "The Center Cannot Hold" (on the life with schizophrenia)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... on fun life&lt;/h5&gt;
 &lt;ul&gt;
@@ -210,6 +216,7 @@
 &lt;li&gt;A. Kuznetsov "Babi Yar: A document in the Form of a Novel"&lt;/li&gt;
 &lt;li&gt;D. Simmons "The Terror" &lt;strong&gt;&amp;lt;-- this one is fictionalized&lt;/strong&gt; &lt;em&gt;(on Captain Sir John Franklin's lost expedititon)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;P.P. Read "Alive: The Story of the Andes Survivors" &lt;em&gt;(on Andes plane crash)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;V. Albanov "In the Land of White Death" &lt;em&gt;(badass account on Arctic Expedition without proper equipment)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Science fiction&lt;/h4&gt;
 &lt;ul&gt;
@@ -310,11 +317,14 @@
 &lt;li&gt;E.M. Remarque (any book except for "Im Westen nichts Neues")&lt;/li&gt;
 &lt;li&gt;F. Kafka "Die Verwandlung"&lt;/li&gt;
 &lt;li&gt;K. Hamsen "Hunger"&lt;/li&gt;
+&lt;li&gt;A. Spiegelmann "Maus"&lt;/li&gt;
+&lt;li&gt;M. Artwood "The Handmaid's Tale"&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... so you just want everyone to disappear&lt;/h5&gt;
 &lt;ul&gt;
 &lt;li&gt;A. Weisman "The World Without Us" &lt;em&gt;(non-fiction)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;C.H. Kearny "Nuclear War Survival Skills" &lt;em&gt;(civil defense, just in the case you don't want to disappear yourself)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;J. Krakauer "Into the Wild" &lt;em&gt;(and that's what happens if you decide to disappear anyway)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... but you are too lazy to do something about it&lt;/h5&gt;
 &lt;ul&gt;
@@ -331,8 +341,11 @@
 &lt;ul&gt;
 &lt;li&gt;Yeonmi Park "In order to live" &lt;em&gt;(on escape from North Korea)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Christiane F. "Wir Kinder vom Bahnhof Zoo" &lt;em&gt;(on sad life in West Berlin in 70th, drugs, rock-n-roll and prostitution)&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;P. Kalanithi "When Breath Becomes Air" &lt;em&gt;(autobiographical book about a metastatic lung cancer)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;V. Malarek "The Natashas" &lt;em&gt;(human trafficking issues)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;P. Kalanithi "When Breath Becomes Air" &lt;em&gt;(on the life with a metastatic lung cancer)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;O. Rolin "Le Météorologe" &lt;em&gt;(On the life of A.F. Wangenheim)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;F. Aubenas "Le Quai de Ouistreham" (on SMIC workers in France)&lt;/li&gt;
+&lt;li&gt;E. Saks "The Center Cannot Hold" (on the life with schizophrenia)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h5&gt;... on fun life&lt;/h5&gt;
 &lt;ul&gt;
@@ -365,6 +378,7 @@
 &lt;li&gt;A. Kuznetsov "Babi Yar: A document in the Form of a Novel"&lt;/li&gt;
 &lt;li&gt;D. Simmons "The Terror" &lt;strong&gt;&amp;lt;-- this one is fictionalized&lt;/strong&gt; &lt;em&gt;(on Captain Sir John Franklin's lost expedititon)&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;P.P. Read "Alive: The Story of the Andes Survivors" &lt;em&gt;(on Andes plane crash)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;V. Albanov "In the Land of White Death" &lt;em&gt;(badass account on Arctic Expedition without proper equipment)&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4&gt;Science fiction&lt;/h4&gt;
 &lt;ul&gt;
@@ -409,7 +423,7 @@
 &lt;li&gt;folk ballad "Herr Mannelig"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "Backbone Flute"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "A cloud in Trousers"&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Teaching</title><link href="/teaching.html" rel="alternate"></link><published>2018-09-24T00:00:00+02:00</published><updated>2018-09-24T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-24:/teaching.html</id><summary type="html">&lt;h3&gt;2018-2019&lt;/h3&gt;
+&lt;/ul&gt;</content></entry><entry><title>Teaching</title><link href="/teaching.html" rel="alternate"></link><published>2018-09-06T00:00:00+02:00</published><updated>2018-09-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-06:/teaching.html</id><summary type="html">&lt;h3&gt;2018-2019&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;UFR IM2AG L3 - &lt;strong&gt;Méthodes statistiques pour la biologie&lt;/strong&gt; (TP, 36h). &lt;a href="http://chamilo.univ-grenoble-alpes.fr/courses/UESTA301/index.php"&gt;Lien vers Chamilo&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
@@ -423,9 +437,10 @@
 &lt;p&gt;&lt;em&gt;Statistique descriptive, lois de probabilités des variables aléatoires discrètes et continues usuelles, statistiaue décisionnelle: utilisation et application sur logiciel R&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;UFR Science et Economie L2 - &lt;strong&gt;Probabilité et Statistique Inferentielles&lt;/strong&gt; (TD, 20h)  &lt;a href="https://toltex.u-ga.fr/probastat"&gt;Lien vers les supports&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>404 - not found</title><link href="/404-not-found.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/404-not-found.html</id><summary type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
+&lt;/ul&gt;</content></entry><entry><title>404 - not found</title><link href="/404-not-found.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/404-not-found.html</id><summary type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
 &lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
-&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</content></entry><entry><title>About me</title><link href="/about.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/about.html</id><summary type="html">&lt;p&gt;I was born on 28 February 1994 in Kiev (Ukraine). Long story short (check &lt;a href="cv.html"&gt;CV&lt;/a&gt;), now I am doing my PhD between two research labs: AGM (UMR CNRS 8088)  and LJK (UMR CNRS 5224), supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at  University of Cergy-Pontoise) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). &lt;/p&gt;
+&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</content></entry><entry><title>About me</title><link href="/about.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/about.html</id><summary type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
+Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
 &lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
 Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
@@ -436,7 +451,8 @@ Some stuff related to my non-research interests will be lately gathered in &lt;a
 &lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
 &lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;font size = "1"&gt; Last updated on March 2020. &lt;/font&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was born on 28 February 1994 in Kiev (Ukraine). Long story short (check &lt;a href="cv.html"&gt;CV&lt;/a&gt;), now I am doing my PhD between two research labs: AGM (UMR CNRS 8088)  and LJK (UMR CNRS 5224), supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at  University of Cergy-Pontoise) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). &lt;/p&gt;
+&lt;p&gt;&lt;font size = "1"&gt; Last updated on July 2020. &lt;/font&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
+Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
 &lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
 Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
@@ -447,7 +463,7 @@ Some stuff related to my non-research interests will be lately gathered in &lt;a
 &lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
 &lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;font size = "1"&gt; Last updated on March 2020. &lt;/font&gt;&lt;/p&gt;</content></entry><entry><title>Contacts</title><link href="/contacts.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/contacts.html</id><summary type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
+&lt;p&gt;&lt;font size = "1"&gt; Last updated on July 2020. &lt;/font&gt;&lt;/p&gt;</content></entry><entry><title>Contacts</title><link href="/contacts.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/contacts.html</id><summary type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
 &lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
 &lt;p&gt;Off. 132&lt;br&gt;
 &lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
@@ -465,7 +481,7 @@ France&lt;/p&gt;
 38401 Saint-Martin-d'Hères&lt;br&gt;
 France&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</content></entry><entry><title>Explain me like I'm 5: Basics of probability theory</title><link href="/proba5.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/proba5.html</id><summary type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
+&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</content></entry><entry><title>Explain me like I'm 5: Basics of probability theory</title><link href="/proba5.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/proba5.html</id><summary type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
@@ -595,7 +611,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Random</title><link href="/random.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/random.html</id><summary type="html">&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>Random</title><link href="/random.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/random.html</id><summary type="html">&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;To begin with, you can check a small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015).  &lt;/li&gt;
 &lt;li&gt;&lt;a href="books.html"&gt;Here&lt;/a&gt; I keep a (non-exclusive) list of books I like.  &lt;/li&gt;
@@ -615,8 +631,9 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;/ul&gt;
 &lt;p&gt;As a bonus, I proudly share with you the photos of my two cats: Rudy (residing with me in France) and Morpheus (taking care of my family in Kyiv). &lt;/p&gt;
 &lt;p&gt;&lt;img src = "images/rudy.jpg" height=500px&gt; 
-&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</content></entry><entry><title>Latest news</title><link href="/research.html" rel="alternate"></link><published>2018-03-24T00:00:00+01:00</published><updated>2018-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-03-24:/research.html</id><summary type="html">&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://hal.archives-ouvertes.fr/hal-02513614v1"&gt;HAL&lt;/a&gt;. &lt;/li&gt;
+&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</content></entry><entry><title>Latest news</title><link href="/research.html" rel="alternate"></link><published>2018-07-06T00:00:00+02:00</published><updated>2018-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-07-06:/research.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;06.07.2020&lt;/strong&gt; My paper "Parametric inference for hypoelliptic ergodic diffusions with full observations" is accepted for publication in Statistical Inference for Stochastic Processes. In the meanwhile, our CEMRACS paper "Horizontal Gene Transfer: Numerical comparison between stochastic and deterministic approaches" is published &lt;a href="https://doi.org/10.1051/proc/202067009"&gt;online&lt;/a&gt; in ESAIM: Proceedings and Surveys.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://doi.org/10.14760/OWP-2020-09"&gt;Oberwolfach Preprints Repository&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; Between 21.10 and 01.11 I will stay at &lt;a href="https://www.math.ku.dk/english"&gt;University of Copenhagen&lt;/a&gt; to work with &lt;a href="http://web.math.ku.dk/~susanne"&gt;Susanne Ditlevsen&lt;/a&gt;.  &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; There is a new &lt;a href="https://github.com/melnyashka/Hawkes_process_with_Erlang_kernels"&gt;GitHub repository&lt;/a&gt; with (drafty) simulations of Hawkes process with Erlang kernels and its diffusion approximation. Author of codes for the point process: &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt;.    &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.06.2019&lt;/strong&gt; Me and &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; have received the "Research in Pairs" grant from &lt;a href="https://www.mfo.de"&gt;Oberwolfach Research Center&lt;/a&gt; for 2 weeks! Our stay is planned for January 2020. &lt;/li&gt;
@@ -688,7 +705,8 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;</summary><content type="html">&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://hal.archives-ouvertes.fr/hal-02513614v1"&gt;HAL&lt;/a&gt;. &lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;06.07.2020&lt;/strong&gt; My paper "Parametric inference for hypoelliptic ergodic diffusions with full observations" is accepted for publication in Statistical Inference for Stochastic Processes. In the meanwhile, our CEMRACS paper "Horizontal Gene Transfer: Numerical comparison between stochastic and deterministic approaches" is published &lt;a href="https://doi.org/10.1051/proc/202067009"&gt;online&lt;/a&gt; in ESAIM: Proceedings and Surveys.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://doi.org/10.14760/OWP-2020-09"&gt;Oberwolfach Preprints Repository&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; Between 21.10 and 01.11 I will stay at &lt;a href="https://www.math.ku.dk/english"&gt;University of Copenhagen&lt;/a&gt; to work with &lt;a href="http://web.math.ku.dk/~susanne"&gt;Susanne Ditlevsen&lt;/a&gt;.  &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.10.2019&lt;/strong&gt; There is a new &lt;a href="https://github.com/melnyashka/Hawkes_process_with_Erlang_kernels"&gt;GitHub repository&lt;/a&gt; with (drafty) simulations of Hawkes process with Erlang kernels and its diffusion approximation. Author of codes for the point process: &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt;.    &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;07.06.2019&lt;/strong&gt; Me and &lt;a href="https://www.jku.at/institut-fuer-stochastik/team/irene-tubikanec/"&gt;Irene Tubikanec&lt;/a&gt; have received the "Research in Pairs" grant from &lt;a href="https://www.mfo.de"&gt;Oberwolfach Research Center&lt;/a&gt; for 2 weeks! Our stay is planned for January 2020. &lt;/li&gt;
@@ -759,18 +777,22 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>CV</title><link href="/cv.html" rel="alternate"></link><published>2018-02-24T00:00:00+01:00</published><updated>2018-02-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-02-24:/cv.html</id><summary type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. &lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>CV</title><link href="/cv.html" rel="alternate"></link><published>2018-02-06T00:00:00+01:00</published><updated>2018-02-06T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-02-06:/cv.html</id><summary type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align="right"&gt;&lt;font size = "4" color = "DimGrey"&gt;Education:&lt;/font&gt;&lt;/th&gt;
+&lt;th align="right"&gt;&lt;/th&gt;
 &lt;th align="left"&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align="right"&gt;&lt;strong&gt;From 2017&lt;/strong&gt;&lt;/td&gt;
-&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;University of Cergy-Pontoise&lt;/a&gt;, France&lt;/td&gt;
+&lt;td align="right"&gt;&lt;strong&gt;2020-2021&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="left"&gt;ATER at &lt;a href="https://ensimag.grenoble-inp.fr"&gt;ENSIMAG, Grenoble INP&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;&lt;strong&gt;2017-2020&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2016-2017&lt;/strong&gt;&lt;/td&gt;
@@ -817,18 +839,22 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
              border="0"
              type="text/html"
              standby=" Page is loading... "&gt;
-             &lt;/object&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. &lt;/p&gt;
+             &lt;/object&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align="right"&gt;&lt;font size = "4" color = "DimGrey"&gt;Education:&lt;/font&gt;&lt;/th&gt;
+&lt;th align="right"&gt;&lt;/th&gt;
 &lt;th align="left"&gt;&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align="right"&gt;&lt;strong&gt;From 2017&lt;/strong&gt;&lt;/td&gt;
-&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;University of Cergy-Pontoise&lt;/a&gt;, France&lt;/td&gt;
+&lt;td align="right"&gt;&lt;strong&gt;2020-2021&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="left"&gt;ATER at &lt;a href="https://ensimag.grenoble-inp.fr"&gt;ENSIMAG, Grenoble INP&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="right"&gt;&lt;strong&gt;2017-2020&lt;/strong&gt;&lt;/td&gt;
+&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2016-2017&lt;/strong&gt;&lt;/td&gt;
@@ -875,7 +901,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
              border="0"
              type="text/html"
              standby=" Page is loading... "&gt;
-             &lt;/object&gt;&lt;/p&gt;</content></entry><entry><title>Trip to Chernobyl</title><link href="/chernobyl.html" rel="alternate"></link><published>2008-03-24T00:00:00+01:00</published><updated>2008-03-24T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2008-03-24:/chernobyl.html</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
+             &lt;/object&gt;&lt;/p&gt;</content></entry><entry><title>Trip to Chernobyl</title><link href="/chernobyl.html" rel="alternate"></link><published>2008-07-06T00:00:00+02:00</published><updated>2008-07-06T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2008-07-06:/chernobyl.html</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So guys, yesterday I was in The Zone. And I feel like writing a small step-by-step report about that.&lt;/p&gt;
 &lt;h4&gt;Zalissia&lt;/h4&gt;
 &lt;p&gt;Well, almost 90% of time spent in The Zone was spent, actually, in a bus driving through cheerful green forests. So, when we stopped at the Zalissia village, 90% of time we were walking through the forest, as the nature seems to have taken this land by force. Whatever remained from people are some fences, half-destroyed huts with rotten roofs and dense wine smell from a thick carpet of ripe apples crunching under your feet. You are even kind of allowed to eat them, but in fact you are not, just in the case. Despite the fact that Zalissa is located in the alienation zone, it was almost uncontaminated during the accident, and people were asked to leave this place rather because of some political reasons, not because it was absolutely necessary. &lt;/p&gt;
