@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Anna Melnykova - Anna Melnykova</title><link href="/" rel="alternate"></link><link href="/feeds/anna-melnykova.atom.xml" rel="self"></link><id>/</id><updated>2019-01-12T00:00:00+01:00</updated><entry><title>5 circles of LaTeX hell</title><link href="/5-circles-of-latex-hell.html" rel="alternate"></link><published>2019-01-12T00:00:00+01:00</published><updated>2019-01-12T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2019-01-12:/5-circles-of-latex-hell.html</id><summary type="html">&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Anna Melnykova - Anna Melnykova</title><link href="/" rel="alternate"></link><link href="/feeds/anna-melnykova.atom.xml" rel="self"></link><id>/</id><updated>2019-01-14T00:00:00+01:00</updated><entry><title>5 circles of LaTeX hell</title><link href="/5-circles-of-latex-hell.html" rel="alternate"></link><published>2019-01-14T00:00:00+01:00</published><updated>2019-01-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2019-01-14:/5-circles-of-latex-hell.html</id><summary type="html">&lt;p&gt;Here I gather some advices I would give a younger version of myself (if I could). Seriously, following some of the rules from the very beginning would save me a lot of time over the course of my PhD. &lt;/p&gt;
 &lt;p&gt;I hope this reference will be useful for students who have just started to discover a beautiful world of LaTeX, or for those who want to do a collaboration with the other guys more efficient. &lt;/p&gt;
 &lt;h3&gt;1. Thou shall give good names to ya labels!&lt;/h3&gt;
 &lt;ul&gt;
@@ -99,33 +99,29 @@
 &lt;li&gt;It keeps your bibliography organized. If you need to find a specific paper and change, for example, its status from a preprint to a journal publication - you do it simply by sorting your entries by, for example, a year, and save yourself time which you would otherwise spent on scrolling through txt file which contains few hundreds entries. &lt;/li&gt;
 &lt;li&gt;Since it treats your library as a true database, you have an access to all the good database features as export\import to another format, removing dublicates, autogenerate keys in a proper format. &lt;/li&gt;
 &lt;li&gt;&lt;a href="http://jabref.org"&gt;JabRef&lt;/a&gt; is free, cross-platform and open source (consider a donation!)&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>404 - not found</title><link href="/404-not-found.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/404-not-found.html</id><summary type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
+&lt;/ul&gt;</content></entry><entry><title>404 - not found</title><link href="/404-not-found.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/404-not-found.html</id><summary type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
 &lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;It seems like the page you requested does not exist. Just as the meaning of life. &lt;/p&gt;
-&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</content></entry><entry><title>About me</title><link href="/about.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/about.html</id><summary type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
-Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
+&lt;p&gt;&lt;img src="images/404.jpg"&gt;&lt;/p&gt;</content></entry><entry><title>About me</title><link href="/about.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/about.html</id><summary type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
+Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. I have defended my thesis on 8 december 2020. You can access the &lt;a href="documents/Defense_Slides.pdf"&gt;slides&lt;/a&gt; and the &lt;a href="documents/main.pdf"&gt;manuscript&lt;/a&gt; by the provided links. &lt;/p&gt;
+&lt;p&gt;My research interests include statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
 &lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
 Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href="https://univ-grenoble-alpes.fr"&gt;&lt;img src="/images/logo-uga.png" height="145"&gt;&lt;/a&gt;
 &lt;a href="https://u-cergy.fr"&gt;&lt;img src = "/images/UCP_logo_violet.jpg" height="145"&gt;&lt;/a&gt;
-&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; 
-&lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
-&lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;font size = "1"&gt; Last updated on July 2020. &lt;/font&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
-Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;Main subject of my thesis is statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
+&lt;p&gt;&lt;font size = "1"&gt; Last updated on December 2020. &lt;/font&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Starting from September 2020 I hold a temporary teaching and research position (ATER) at Grenoble INP. I do my teaching in ENSIMAG, and research in Laboratoire Jean Kuntzmann in Grenoble. 
+Prior to that, I was a PhD student in Cergy Paris Université, supervised by &lt;a href="http://samm.univ-paris1.fr/Eva-Locherbach-889"&gt;Eva Löcherbach&lt;/a&gt; (from September 2018: professor at Université Paris 1 Panthéon Sorbonne, previously: professor at Cergy Paris Université) and &lt;a href="http://adeline.e-samson.org"&gt;Adeline Leclercq-Samson&lt;/a&gt; (professor at Université Grenoble Alpes). For more details check my &lt;a href="cv.html"&gt;CV&lt;/a&gt;. I have defended my thesis on 8 december 2020. You can access the &lt;a href="documents/Defense_Slides.pdf"&gt;slides&lt;/a&gt; and the &lt;a href="documents/main.pdf"&gt;manuscript&lt;/a&gt; by the provided links. &lt;/p&gt;
+&lt;p&gt;My research interests include statistics for stochastic processes with degenerate noise and their application to neuroscience. More precisely, I am dealing with parametric inference, approximation schemes and hypothesis testing. Last news, slides of the talk, notes and all kind of updates or remarks are to be found in &lt;a href="research.html"&gt;Research&lt;/a&gt;.    &lt;/p&gt;
 &lt;p&gt;In my free time I do nearly all types of outdoor activities (i.e. hiking, riding a bike, climbing, swimming, skiing) and also read almost everything, starting from German philosophy and Scandinavian myths and ending with civil defence tutorials and all kinds of survival-related literature. 
 Some stuff related to my non-research interests will be lately gathered in &lt;a href="random.html"&gt;Random&lt;/a&gt;. Finally, if you need to contact me for some reason, please check &lt;a href="contacts.html"&gt;Contacts&lt;/a&gt;. &lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;a href="https://univ-grenoble-alpes.fr"&gt;&lt;img src="/images/logo-uga.png" height="145"&gt;&lt;/a&gt;
 &lt;a href="https://u-cergy.fr"&gt;&lt;img src = "/images/UCP_logo_violet.jpg" height="145"&gt;&lt;/a&gt;
-&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; 
-&lt;a href="https://u-cergy.fr/en/laboratories/agm-laboratory.html"&gt;&lt;img src="/images/AGM.jpg" height = "145"&gt;&lt;/a&gt;
-&lt;a href="https://labex-mme-dii.u-cergy.fr"&gt;&lt;img src="/images/MME-DII.jpg" width="350"&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;a href="https://ljk.imag.fr"&gt;&lt;img src = "/images/images.png" height="145"&gt;&lt;/a&gt; &lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;font size = "1"&gt; Last updated on July 2020. &lt;/font&gt;&lt;/p&gt;</content></entry><entry><title>Contacts</title><link href="/contacts.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/contacts.html</id><summary type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
+&lt;p&gt;&lt;font size = "1"&gt; Last updated on December 2020. &lt;/font&gt;&lt;/p&gt;</content></entry><entry><title>Contacts</title><link href="/contacts.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/contacts.html</id><summary type="html">&lt;p&gt;You can write me an &lt;strong&gt;e-mail&lt;/strong&gt; to firstname.lastname@univ-grenoble-alpes.fr or firstname.lastname@u-cergy.fr.&lt;/p&gt;
 &lt;p&gt;My &lt;strong&gt;postal address&lt;/strong&gt; is:&lt;/p&gt;
 &lt;p&gt;Off. 132&lt;br&gt;
 &lt;a href="https://ljk.imag.fr" title="Laboratoire Jean Kuntzmann website"&gt;LJK&lt;/a&gt;, 
@@ -143,7 +139,7 @@ France&lt;/p&gt;
 38401 Saint-Martin-d'Hères&lt;br&gt;
 France&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</content></entry><entry><title>Explain me like I'm 5: Basics of probability theory</title><link href="/proba5.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/proba5.html</id><summary type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
+&lt;p&gt;For those, who are already here and are willing to visit me in person (and, optionally, to offer me a free lunch): Office 132 is on the first floor, on the south side of building, with a cute soviet poster on the door. &lt;/p&gt;</content></entry><entry><title>Explain me like I'm 5: Basics of probability theory</title><link href="/proba5.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/proba5.html</id><summary type="html">&lt;h4&gt;Probability space&lt;/h4&gt;
 &lt;p&gt;&lt;em&gt;Formal definition&lt;/em&gt;: &lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Plain English explanation&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Filtration&lt;/strong&gt; - available information about the process, can be considered as logs. 
@@ -273,7 +269,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Random</title><link href="/random.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/random.html</id><summary type="html">&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>Random</title><link href="/random.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/random.html</id><summary type="html">&lt;p&gt;Welcome to the mini-hub of all kinds of non-academical things I find interesting!  &lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;To begin with, you can check a small travel report about my trip to &lt;a href="chernobyl.html"&gt;Chernobyl&lt;/a&gt; (August 2015).  &lt;/li&gt;
 &lt;li&gt;&lt;a href="books.html"&gt;Here&lt;/a&gt; I keep a (non-exclusive) list of books I like.  &lt;/li&gt;
@@ -293,7 +289,9 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;/ul&gt;
 &lt;p&gt;As a bonus, I proudly share with you the photos of my two cats: Rudy (residing with me in France) and Morpheus (taking care of my family in Kyiv). &lt;/p&gt;
 &lt;p&gt;&lt;img src = "images/rudy.jpg" height=500px&gt; 
-&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</content></entry><entry><title>Latest news</title><link href="/research.html" rel="alternate"></link><published>2018-10-12T00:00:00+02:00</published><updated>2018-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-10-12:/research.html</id><summary type="html">&lt;ul&gt;
+&lt;img src = "images/morph.jpg" height=500px&gt;&lt;/p&gt;</content></entry><entry><title>Latest news</title><link href="/research.html" rel="alternate"></link><published>2018-12-14T00:00:00+01:00</published><updated>2018-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-12-14:/research.html</id><summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;08.12.2020&lt;/strong&gt; I have defended my thesis "Statistical and numerical analysis of jump and diffusion models in biology" on 8 of december 2020. It was referenced by Antoine Lejay (DR Inria at Nancy) and Arnaud Gloter (Professor at Evry University). The examinators were Evelyn Buckwar (Professor at JKU Linz, Austria), Magalie Fromont (Professor at Rennes University), as well as my supervisors Eva Loecherbach (Professor at Université de Sorbonne) and Adeline Leclercq-Samson (Professor at Université Grenoble Alpes). Here are the links to my &lt;a href="documents/main.pdf"&gt;thesis manuscript&lt;/a&gt; and &lt;a href="documents/Defense_Slides.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;08.12.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; has been accepted for publication to Journal of Applied Probability. It will appear in September 2021.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;12.10.2020&lt;/strong&gt; My PhD defense is scheduled for 8th of December. The beta-version of the manuscript is available &lt;a href="documents/main.pdf"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;06.07.2020&lt;/strong&gt; My paper "Parametric inference for hypoelliptic ergodic diffusions with full observations" is accepted for publication in Statistical Inference for Stochastic Processes. In the meanwhile, our CEMRACS paper "Horizontal Gene Transfer: Numerical comparison between stochastic and deterministic approaches" is published &lt;a href="https://doi.org/10.1051/proc/202067009"&gt;online&lt;/a&gt; in ESAIM: Proceedings and Surveys.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://doi.org/10.14760/OWP-2020-09"&gt;Oberwolfach Preprints Repository&lt;/a&gt;.&lt;/li&gt;
@@ -368,6 +366,8 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
 &lt;/script&gt;</summary><content type="html">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;08.12.2020&lt;/strong&gt; I have defended my thesis "Statistical and numerical analysis of jump and diffusion models in biology" on 8 of december 2020. It was referenced by Antoine Lejay (DR Inria at Nancy) and Arnaud Gloter (Professor at Evry University). The examinators were Evelyn Buckwar (Professor at JKU Linz, Austria), Magalie Fromont (Professor at Rennes University), as well as my supervisors Eva Loecherbach (Professor at Université de Sorbonne) and Adeline Leclercq-Samson (Professor at Université Grenoble Alpes). Here are the links to my &lt;a href="documents/main.pdf"&gt;thesis manuscript&lt;/a&gt; and &lt;a href="documents/Defense_Slides.pdf"&gt;slides&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;08.12.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; has been accepted for publication to Journal of Applied Probability. It will appear in September 2021.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;12.10.2020&lt;/strong&gt; My PhD defense is scheduled for 8th of December. The beta-version of the manuscript is available &lt;a href="documents/main.pdf"&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;06.07.2020&lt;/strong&gt; My paper "Parametric inference for hypoelliptic ergodic diffusions with full observations" is accepted for publication in Statistical Inference for Stochastic Processes. In the meanwhile, our CEMRACS paper "Horizontal Gene Transfer: Numerical comparison between stochastic and deterministic approaches" is published &lt;a href="https://doi.org/10.1051/proc/202067009"&gt;online&lt;/a&gt; in ESAIM: Proceedings and Surveys.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;20.03.2020&lt;/strong&gt; Our paper on Theoretical and Numerical Analysis of Hawkes processes and their diffusion approximation written with &lt;a href="https://irenetubikanec.wixsite.com/mysite"&gt;Irene Tubikanec&lt;/a&gt; and &lt;a href="https://www-ljk.imag.fr/membres/Julien.Chevallier"&gt;Julien Chevallier&lt;/a&gt; is now online on &lt;a href="https://doi.org/10.14760/OWP-2020-09"&gt;Oberwolfach Preprints Repository&lt;/a&gt;.&lt;/li&gt;
@@ -441,7 +441,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
         "}";
     (document.body || document.getElementsByTagName('head')[0]).appendChild(mathjaxscript);
 }
-&lt;/script&gt;</content></entry><entry><title>Books</title><link href="/books.html" rel="alternate"></link><published>2018-09-12T00:00:00+02:00</published><updated>2018-09-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-12:/books.html</id><summary type="html">&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
+&lt;/script&gt;</content></entry><entry><title>Books</title><link href="/books.html" rel="alternate"></link><published>2018-09-14T00:00:00+02:00</published><updated>2018-09-14T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-14:/books.html</id><summary type="html">&lt;p&gt;Here is non-exhaustive list of books I like, kind of sorted by subjects. &lt;/p&gt;
 &lt;h4&gt;Old but gold&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;S. Sturluson "Younger Edda"&lt;/li&gt;
@@ -765,7 +765,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;li&gt;folk ballad "Herr Mannelig"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "Backbone Flute"&lt;/li&gt;
 &lt;li&gt;V. Mayakovsky "A cloud in Trousers"&lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>Teaching</title><link href="/teaching.html" rel="alternate"></link><published>2018-09-12T00:00:00+02:00</published><updated>2018-09-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-12:/teaching.html</id><summary type="html">&lt;h3&gt;2020-2021&lt;/h3&gt;
+&lt;/ul&gt;</content></entry><entry><title>Teaching</title><link href="/teaching.html" rel="alternate"></link><published>2018-09-14T00:00:00+02:00</published><updated>2018-09-14T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-09-14:/teaching.html</id><summary type="html">&lt;h3&gt;2020-2021&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;MSIAM M1 - &lt;a href="https://sites.google.com/view/fall2020probastat/home"&gt;&lt;strong&gt;Applied probability and Statistics&lt;/strong&gt;&lt;/a&gt; - &lt;a href="documents/Organized_solutions.pdf"&gt;(Solutions to exercises)&lt;/a&gt;&lt;a href="documents/hw1.pdf"&gt;(Homework1)&lt;/a&gt; (TD, 18h).&lt;/li&gt;
 &lt;li&gt;ENSIMAG 2A - &lt;strong&gt;Modeles probabilistes pour l'apprentisage&lt;/strong&gt; (TD, 18h). &lt;a href="https://chamilo.grenoble-inp.fr/courses/ENSIMAG4MMMPA/index.php"&gt;Lien vers Chamillo&lt;/a&gt;&lt;/li&gt;
@@ -795,7 +795,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;p&gt;&lt;em&gt;Statistique descriptive, lois de probabilités des variables aléatoires discrètes et continues usuelles, statistiaue décisionnelle: utilisation et application sur logiciel R&lt;/em&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;UFR Science et Economie L2 - &lt;strong&gt;Probabilité et Statistique Inferentielles&lt;/strong&gt; (TD, 20h)  &lt;a href="https://toltex.u-ga.fr/probastat"&gt;Lien vers les supports&lt;/a&gt; &lt;/li&gt;
-&lt;/ul&gt;</content></entry><entry><title>CV</title><link href="/cv.html" rel="alternate"></link><published>2018-02-12T00:00:00+01:00</published><updated>2018-02-12T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-02-12:/cv.html</id><summary type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
+&lt;/ul&gt;</content></entry><entry><title>CV</title><link href="/cv.html" rel="alternate"></link><published>2018-02-14T00:00:00+01:00</published><updated>2018-02-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2018-02-14:/cv.html</id><summary type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -810,7 +810,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2017-2020&lt;/strong&gt;&lt;/td&gt;
-&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France&lt;/td&gt;
+&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France. Thesis defended on 8 december 2020.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2016-2017&lt;/strong&gt;&lt;/td&gt;
@@ -850,16 +850,17 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;strong&gt;December 2017&lt;/strong&gt; - &lt;a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN"&gt;Winter School on Deterministic and Stochastic Models in Neuroscience&lt;/a&gt;, Toulouse, France&lt;br&gt;
 &lt;strong&gt;August 2015&lt;/strong&gt; - &lt;a href="http://summerschool.ssa.org.ua"&gt;AACIMP Summer School&lt;/a&gt; (Applied Computer Science track), Kiev, Ukraine&lt;/p&gt;
 &lt;p&gt;&lt;font size = "4" color = "DimGrey"&gt;List of publications:&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;My ORCID is the following:
-&lt;div itemscope itemtype="https://schema.org/Person"&gt;&lt;a itemprop="sameAs" content="https://orcid.org/0000-0003-0852-2594" href="https://orcid.org/0000-0003-0852-2594" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"&gt;&lt;img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"&gt;https://orcid.org/0000-0003-0852-2594&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;My ORCID is the following:&lt;/p&gt;
+&lt;div itemscope itemtype="https://schema.org/Person"&gt;&lt;a itemprop="sameAs" content="https://orcid.org/0000-0003-0852-2594" href="https://orcid.org/0000-0003-0852-2594" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"&gt;&lt;img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"&gt;https://orcid.org/0000-0003-0852-2594&lt;/a&gt;&lt;/div&gt;
+
 &lt;p&gt;Analogously, here is the list generated by HAL:&lt;/p&gt;
-&lt;p&gt;&lt;object data="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Anna,Melnykova&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;ordre_aff=TA&amp;CB_rubriqueDiv=oui&amp;Fen=Aff&amp;css=../css/VisuCondense.css"
+&lt;object data="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Anna,Melnykova&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;ordre_aff=TA&amp;CB_rubriqueDiv=oui&amp;Fen=Aff&amp;css=../css/VisuCondense.css"
              width="120%"
              height="4000"
              border="0"
              type="text/html"
              standby=" Page is loading... "&gt;
-             &lt;/object&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
+             &lt;/object&gt;</summary><content type="html">&lt;p&gt;PDF version can be downloaded &lt;a href="documents/melnykova_cv.pdf"&gt;here&lt;/a&gt;. In short, my academic curriculum is the following: &lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -874,7 +875,7 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2017-2020&lt;/strong&gt;&lt;/td&gt;
-&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France&lt;/td&gt;
+&lt;td align="left"&gt;PhD student in &lt;a href="https://u-cergy.fr"&gt;Cergy Paris Université&lt;/a&gt;, France. Thesis defended on 8 december 2020.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align="right"&gt;&lt;strong&gt;2016-2017&lt;/strong&gt;&lt;/td&gt;
@@ -914,16 +915,17 @@ A: Just to restrict ourselves to the case when all the events we are talking abo
 &lt;strong&gt;December 2017&lt;/strong&gt; - &lt;a href="http://cimi.univ-toulouse.fr/mib/en/School-DSMN"&gt;Winter School on Deterministic and Stochastic Models in Neuroscience&lt;/a&gt;, Toulouse, France&lt;br&gt;
 &lt;strong&gt;August 2015&lt;/strong&gt; - &lt;a href="http://summerschool.ssa.org.ua"&gt;AACIMP Summer School&lt;/a&gt; (Applied Computer Science track), Kiev, Ukraine&lt;/p&gt;
 &lt;p&gt;&lt;font size = "4" color = "DimGrey"&gt;List of publications:&lt;/font&gt;&lt;/p&gt;
-&lt;p&gt;My ORCID is the following:
-&lt;div itemscope itemtype="https://schema.org/Person"&gt;&lt;a itemprop="sameAs" content="https://orcid.org/0000-0003-0852-2594" href="https://orcid.org/0000-0003-0852-2594" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"&gt;&lt;img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"&gt;https://orcid.org/0000-0003-0852-2594&lt;/a&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;My ORCID is the following:&lt;/p&gt;
+&lt;div itemscope itemtype="https://schema.org/Person"&gt;&lt;a itemprop="sameAs" content="https://orcid.org/0000-0003-0852-2594" href="https://orcid.org/0000-0003-0852-2594" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"&gt;&lt;img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon"&gt;https://orcid.org/0000-0003-0852-2594&lt;/a&gt;&lt;/div&gt;
+
 &lt;p&gt;Analogously, here is the list generated by HAL:&lt;/p&gt;
-&lt;p&gt;&lt;object data="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Anna,Melnykova&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;ordre_aff=TA&amp;CB_rubriqueDiv=oui&amp;Fen=Aff&amp;css=../css/VisuCondense.css"
+&lt;object data="https://haltools.archives-ouvertes.fr/Public/afficheRequetePubli.php?auteur_exp=Anna,Melnykova&amp;tri_exp=annee_publi&amp;tri_exp2=typdoc&amp;tri_exp3=date_publi&amp;CB_auteur=oui&amp;CB_titre=oui&amp;CB_article=oui&amp;langue=Anglais&amp;ordre_aff=TA&amp;CB_rubriqueDiv=oui&amp;Fen=Aff&amp;css=../css/VisuCondense.css"
              width="120%"
              height="4000"
              border="0"
              type="text/html"
              standby=" Page is loading... "&gt;
-             &lt;/object&gt;&lt;/p&gt;</content></entry><entry><title>Trip to Chernobyl</title><link href="/chernobyl.html" rel="alternate"></link><published>2008-10-12T00:00:00+02:00</published><updated>2008-10-12T00:00:00+02:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2008-10-12:/chernobyl.html</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
+             &lt;/object&gt;</content></entry><entry><title>Trip to Chernobyl</title><link href="/chernobyl.html" rel="alternate"></link><published>2008-12-14T00:00:00+01:00</published><updated>2008-12-14T00:00:00+01:00</updated><author><name>Anna Melnykova</name></author><id>tag:None,2008-12-14:/chernobyl.html</id><summary type="html">&lt;p&gt;&lt;em&gt;This is a loose translation to English of my note from August 2015 written in Russian. That's a description of the guided tour I had a pleasure to take part in to Chernobyl and Pripyat (see &lt;a href="https://en.wikipedia.org/wiki/Chernobyl_disaster"&gt;Wikipedia&lt;/a&gt;).  I like to read travel notes of that kind, so there is my small contribution to the World Wide Web.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;So guys, yesterday I was in The Zone. And I feel like writing a small step-by-step report about that.&lt;/p&gt;
 &lt;h4&gt;Zalissia&lt;/h4&gt;
 &lt;p&gt;Well, almost 90% of time spent in The Zone was spent, actually, in a bus driving through cheerful green forests. So, when we stopped at the Zalissia village, 90% of time we were walking through the forest, as the nature seems to have taken this land by force. Whatever remained from people are some fences, half-destroyed huts with rotten roofs and dense wine smell from a thick carpet of ripe apples crunching under your feet. You are even kind of allowed to eat them, but in fact you are not, just in the case. Despite the fact that Zalissa is located in the alienation zone, it was almost uncontaminated during the accident, and people were asked to leave this place rather because of some political reasons, not because it was absolutely necessary. &lt;/p&gt;
